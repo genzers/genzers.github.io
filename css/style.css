@@ -213,6 +213,7 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
+  left: 280px
 }
 .dropdown-content {
   opacity: 0.8;
