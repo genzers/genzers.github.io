@@ -1,3 +1,14 @@
+/*font*/
+@font-face {
+    font-family: 'simplificasimplifica';
+    src: url('simplifica_typeface-webfont.woff2') format('woff2'),
+         url('simplifica_typeface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*font ended*/
+
 /* border-box setting */
 * {
   margin: 0;
@@ -7,6 +18,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'simplificasimplifica';
 }
 /* border box setting ended */
 
