@@ -252,6 +252,20 @@ body {
 }
 /* dropdown ended */
 
+/*topbanner start*/
+.topbanner {
+	font-weight: 200px;
+	background-color: #E6E6E6;
+	opacity: 0.8
+}
+.topbannerpic {
+	max-width: 300px;
+	max-height: auto;
+	border-radius: 50%;
+	position: relative;
+	left: 10%;
+}
+
 /* Footer Setting */
 .footer {
   background-color: #000000;
