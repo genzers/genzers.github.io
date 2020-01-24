@@ -1,14 +1,3 @@
-/*font*/
-@font-face {
-    font-family: simplificasimplifica;
-    src: url('../genzers.github.io/font/simplifica_typeface-webfont.woff2') format('woff2'),
-         url('../genzers.github.io/font/simplifica_typeface-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-/*font ended*/
-
 /* border-box setting */
 * {
   margin: 0;
@@ -18,10 +7,19 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: simplificasimplifica;
 }
 /* border box setting ended */
+/*font*/
 
+@font-face {
+    font-family: 'simple';
+    src: url('../simplifica_typeface-webfont.woff2') format('woff2'),
+         url('../simplifica_typeface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*font ended*/
 /* image setting */
 img {
   display: block;
@@ -34,7 +32,7 @@ img {
 body {
   color: #6c6c6f;
   background-color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'simple', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 27px;
@@ -188,6 +186,7 @@ body {
   }
 }
 .primary-menu li a, .footer .foo-nav li a {
+  font-family:'simple';
   color: #ffffff;
   display: block;
   font-size: 14px;
