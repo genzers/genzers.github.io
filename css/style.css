@@ -138,21 +138,29 @@ body {
 
 /* heading */
 .header{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
 }
 .header.banner {
-  background-color: black;
+  background-color: #060309;
+  opacity: 0.9;
   height: 25%;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
 /* heading ended */
+
+.logopic {
+	position: fixed;
+	max-width: auto;
+	left: 8%;
+	top: 40px;
+}
 
 /* logo url block */
 .logo {
@@ -213,18 +221,13 @@ body {
 /* primary-menu ended */
 
 /* dropdown */
-.dropbtn {
-  background-color: #000000;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
 .dropdown {
   position: relative;
   display: inline-block;
-  left: 280px
+  left: 280px;
+  font-size:20px;
+  top: 80px;
+
 }
 .dropdown-content {
   opacity: 0.8;
@@ -254,16 +257,26 @@ body {
 
 /*topbanner start*/
 .topbanner {
+	position: relative;
 	font-weight: 200px;
 	background-color: #E6E6E6;
-	opacity: 0.8
+	display: block;
+	opacity: 0.8;
+	padding-bottom: 200px;	
+	
+	width: 100%;
+    border: none;
+    padding: 0px 0 200 0;
+    margin: 0px;
 }
 .topbannerpic {
 	max-width: 300px;
 	max-height: auto;
 	border-radius: 50%;
 	position: relative;
+	top: 190px;
 	left: 10%;
+	display: block;
 }
 
 /* Footer Setting */
