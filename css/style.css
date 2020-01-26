@@ -20,6 +20,7 @@
 }
 /*Font Ended*/
 
+/*media testing*/
 @media screen and (max-width: 150) {
 	.logo .pic {
 		display: flex;
@@ -29,6 +30,19 @@
 		max-width: auto;
 	}
 }
+/*media ended*/
+
+/*Animation Setting*/
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+/*Animation Ended*/
 
 /*Logo Image ID Setting*/
 #logoimg {
@@ -153,7 +167,7 @@
 	
 }
 .topbannerpic {
-	max-width: 100%;
+	max-width: 200px;
 	max-height: auto;
 	border-radius: 50%;
 	position: relative;
@@ -164,8 +178,13 @@
 }
 
 .topbannertitle {
-	text-decoration: underline;
-	color: #FFFFFF; 
+	margin: 50px 0px 0px 550px;
+	color: #6E6E6E;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 /*Topbanner Ended*/
 
@@ -175,7 +194,7 @@
 	padding-top: 100px;
 	padding-bottom: 100px;
 	position: relative;
-	
+	width: 100%;
 }
 
 .foopic img {
