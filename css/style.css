@@ -21,10 +21,10 @@
 /*Font Ended*/
 
 /*media testing*/
-@media screen and (max-width: 800) {
+@media screen and (max-width: 800px) {
 	#logoimg{
-		max-width: 9px;
-		max-height: 6px; 
+		max-width: 98px;
+		max-height: 64px; 
 	}
 	.dropdown {
 		margin-bottom: 100px;
