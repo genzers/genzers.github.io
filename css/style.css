@@ -21,13 +21,9 @@
 /*Font Ended*/
 
 /*media testing*/
-@media screen and (max-width: 150) {
-	.logo .pic {
-		display: flex;
-		flex-flow: row nowrap;
-		margin: 0px;
-		max-height: 100px;
-		max-width: auto;
+@media screen and (max-width: 800) {
+	.dropdown {
+		margin-bottom: 100px;
 	}
 }
 /*media ended*/
