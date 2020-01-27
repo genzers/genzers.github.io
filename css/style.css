@@ -21,7 +21,7 @@
 /*Font Ended*/
 
 /*media testing*/
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 800px) {
 	#logoimg{
 		max-width: 0px;
 		max-height: 0px; 
