@@ -23,8 +23,8 @@
 /*media testing*/
 @media screen and (max-width: 800) {
 	#logoimg{
-		max-width: 98px;
-		max-height: 64px; 
+		max-width: 9px;
+		max-height: 6px; 
 	}
 	.dropdown {
 		margin-bottom: 100px;
