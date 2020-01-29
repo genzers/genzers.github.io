@@ -13,10 +13,20 @@
 /*Font Setting*/
 @font-face {
     font-family: 'simple';
-    src: url('../simplifica_typeface-webfont.woff2') format('woff2'),
-         url('../simplifica_typeface-webfont.woff') format('woff');
+    src: url('../font/simplifica_typeface-webfont.woff2') format('woff2'),
+         url('../font/simplifica_typeface-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'senty_pea_regular';
+    src: url('../font/sentypea-webfont.woff2') format('woff2'),
+         url('../font/sentypea-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 /*Font Ended*/
 
@@ -235,6 +245,7 @@
  
 }
 .topbannertitle{
+	font-family: 'senty_pea_regular';
 	color: #4C4C4C;
 	margin-left: 40px;
 	margin-top: 130px;
@@ -244,6 +255,7 @@
 	font-size: 40px;
 }
 .topbannercontent{
+	font-family: 'senty_pea_regular';
 	color: #4C4C4C;
 	margin-left: -70px;
 	margin-top: 200px;

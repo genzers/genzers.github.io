@@ -294,10 +294,26 @@
 }
 
 .column {
+	margin: 5px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
 	opacity: 0.9;
-	margin-top: 100px;
-	flex: 33%;
+	width: 390px;
 	padding: 10px;
-	height: 600px;
+	height: auto;
+	min-height: 600px;
+}
+
+.column-heading {
+	font-size: 30px;
+	color: #888888;
+	text-align: center;
+}
+
+.column-content-title {
+	color: #FFFFFF;
+	font-size: 30px;
 }
 /*Stories Column Ended*/
