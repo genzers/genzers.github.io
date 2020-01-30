@@ -24,7 +24,14 @@
 
 /*media testing*/
 @media screen and (max-width: 750px) {
-	
+	.header.banner {
+		flex-wrap: wrap; 
+		background-color: #060309;
+		opacity: 0.9;
+		max-height: none;
+		height: auto;
+/*		margin-bottom: 200%;*/
+	}
 }
 /*media ended*/
 
@@ -164,11 +171,12 @@
 	flex-wrap: wrap; 
 	background-color: #060309;
 	opacity: 0.9;
-	height: auto;
+	max-height: 100px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	margin-bottom: -100px;
 	padding:5px;
 }
 
