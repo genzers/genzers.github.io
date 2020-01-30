@@ -3,8 +3,6 @@
   flex-direction: column;
 }
 
-
-
 .countdown_wrap {
   background-color: #000000;
   position: absolute;
@@ -196,14 +194,25 @@ $lato: "Lato";
 /*Font Ended*/
 
 /*media testing*/
-@media screen and (max-width: 750px) {
-	.header.banner {
-		flex-wrap: wrap; 
-		background-color: #060309;
-		opacity: 0.9;
-		max-height: none;
-		height: auto;
-/*		margin-bottom: 200%;*/
+@media screen and (max-width: 850px) {
+	.header .banner {
+		height: 200px;
+	}
+	#logoimg {
+		width: 130px;
+		height: 85px;
+	}
+	
+	.dropdown {
+		display: none;
+	}
+
+	.dropdown-content {
+		display: none;
+	}
+
+	.dropdown-content a {
+		display: none;
 	}
 }
 /*media ended*/
@@ -268,14 +277,12 @@ $lato: "Lato";
 }
 /*Animation Ended*/
 
-.logo{
-	width: 10%;
-	height: auto;
+#logoimg{
+	height: 100px;
+	weight: auto;
 }
 /*ID Setting*/
-#logoimg {
-	width: 100%;
-}
+
 /*ID Ended*/
 
 /*Affect All Setting*/
@@ -347,6 +354,7 @@ $lato: "Lato";
 	background-color: #060309;
 	opacity: 0.9;
 	max-height: 100px;
+	min-height: 100px;
 	position: fixed;
 	top: 0;
 	left: 0;
