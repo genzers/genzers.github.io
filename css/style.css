@@ -24,14 +24,7 @@
 
 /*media testing*/
 @media screen and (max-width: 750px) {
-	#logoimg{
-		width: 100px;
-		height: 100px;
-	}
-	.dropdown {
-		font-size: 10px;
-/*		margin-bottom: 50px;*/
-	}
+	
 }
 /*media ended*/
 

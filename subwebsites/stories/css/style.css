@@ -21,15 +21,7 @@
 /*Font Ended*/
 
 /*media testing*/
-@media screen and (max-width: 800px) {
-	#logoimg{
-		max-width: 0px;
-		max-height: 0px; 
-	}
-	.dropdown {
-		margin-bottom: 100px;
-	}
-}
+
 /*media ended*/
 
 /*Animation Setting*/
@@ -214,8 +206,9 @@
 /* Dropdown Setting*/
 .dropdown {
 	font-size: 20px;
-	width: 100px;
-	margin-left: 20px;
+	min-width: 150px;
+	left: 140px;
+	top: -50px;
 }
 
 .dropdown-content {
@@ -349,10 +342,11 @@ hr {
 	flex-wrap: wrap;
 	opacity: 0.9;
 	align-content: stretch;
-	width: 390px;;
+	width: 390px;
 	padding: 10px;
 	height: auto;
 	min-height: 600px;
+	justify-content: center;
 	transition: transform .2s; /* Animation */
 }
 
@@ -369,6 +363,7 @@ hr {
 	font-size: 40px;
 	color: #888888;
 	text-align: center;
+	justify-content: center;
 }
 
 .column-content-title { 
@@ -376,7 +371,7 @@ hr {
 	margin-top: 10px;
 	font-family: 'simple';
 	color: #FFFFFF;
-	font-size: 20px;
+	font-size: 20px;	
 }
 
 .column-content {
@@ -397,6 +392,19 @@ hr {
 	color: white;
 	background-color: #9A9A9A;
 	transition: transform 2s;
+}
+
+@media screen and (max-width: 800px) {
+	.column-heading {
+		margin-bottom: 100px;
+	}
+	
+	.column {
+		margin: 0px;
+		margin-top: 10px;
+		align-content: center;
+		width: 100%;
+	}
 }
 
 .readmore:hover {
