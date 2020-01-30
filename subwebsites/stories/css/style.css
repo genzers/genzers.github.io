@@ -133,6 +133,7 @@
 }
 
 .column-heading {
+	padding: 100px;
 	-webkit-animation: fadeInLeft 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadeInLeft 2s; /* Firefox < 16 */
 	-ms-animation: fadeInLeft 2s; /* Internet Explorer */
@@ -347,8 +348,12 @@ hr {
 	display: inline-flex;
 	flex-wrap: wrap;
 	opacity: 0.9;
+<<<<<<< HEAD
 	align-content: stretch;
 	width: 390px;;
+=======
+	width: 32%;
+>>>>>>> 5d8f2b2aa0fcc3d5df42b00fbe1b1aa01de5c49b
 	padding: 10px;
 	height: auto;
 	min-height: 600px;
