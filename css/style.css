@@ -268,10 +268,13 @@ $lato: "Lato";
 }
 /*Animation Ended*/
 
+.logo{
+	width: 10%;
+	height: auto;
+}
 /*ID Setting*/
 #logoimg {
-	max-width: 130px;
-	max-height: 85px;
+	width: 100%;
 }
 /*ID Ended*/
 
@@ -341,7 +344,6 @@ $lato: "Lato";
 	display: inline-flex;
 	align-items:flex-end;
 	justify-content: flex-start;
-	flex-wrap: wrap; 
 	background-color: #060309;
 	opacity: 0.9;
 	max-height: 100px;
@@ -350,17 +352,15 @@ $lato: "Lato";
 	left: 0;
 	width: 100%;
 	margin-bottom: -100px;
-	padding:5px;
+	padding:1px;
 }
 
 /*Heading Ended*/
 
 /* Dropdown Setting*/
 .dropdown {
-	font-size: 20px;
-	min-width: 150px;
-	left: 140px;
-	top: -50px;
+	width: 10%;
+	margin-left:3%;
 }
 
 .dropdown-content {
