@@ -1,22 +1,26 @@
-.footer-flex-container {
+.footer-flex-container{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+.countdown_tit le_div {
+  width: 100%;
+  justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d175c041e52305cff6b35a4e7ba7257537cd1562
 .countdown_wrap {
+  display: flex;
+  width: 100%;
   background-color: #000000;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: 310px;
 }
-// Variables
+/*// Variables*/
 $lato: "Lato";
 
-// Title
+/*// Title*/
 .countdown_title {
   margin-bottom: 60px;
   text-align: center;
@@ -32,10 +36,10 @@ $lato: "Lato";
 
 
 
-// Countdown
+/*// Countdown*/
 .countdown {
-  width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 
   .bloc-time {
     float: left;
@@ -43,9 +47,10 @@ $lato: "Lato";
     text-align: center;
 
     &:last-child {
-      margin-right: 0;
+      margin-right: 0px;
     }
   }
+
 
   .count-title {
     display: block;
