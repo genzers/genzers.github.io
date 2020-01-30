@@ -1,3 +1,10 @@
+.footer-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 .countdown_wrap {
   background-color: #000000;
   position: absolute;
