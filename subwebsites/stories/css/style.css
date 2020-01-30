@@ -395,8 +395,10 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
+	
 	.column-heading {
-		margin-bottom: 100px;
+		top: 200px;
+		margin-bottom: 200px;
 	}
 	
 	.column {
