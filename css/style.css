@@ -470,7 +470,7 @@ $lato: "Lato";
 	background-color: #060309;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	position: fixed;
+	position: relative;
 	width: 100%;
 }
 
