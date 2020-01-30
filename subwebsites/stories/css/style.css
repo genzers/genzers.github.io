@@ -333,6 +333,7 @@
 }
 
 /*Stories Column Setting*/
+
 hr {
 	background-color: #979797;
 }
@@ -342,11 +343,12 @@ hr {
 
 .column {
 	margin: 5px;
-	justify-content: center;
-	display: flex;
+	margin-top: 100px;
+	display: inline-flex;
 	flex-wrap: wrap;
 	opacity: 0.9;
-	width: 390px;
+	align-content: stretch;
+	width: 390px;;
 	padding: 10px;
 	height: auto;
 	min-height: 600px;
@@ -359,7 +361,8 @@ hr {
 
 .column-heading {
 	text-transform: uppercase;
-	margin-top: 50px;
+	position: relative;
+	top: 100px;
 	height: 100px;
 	font-family: 'simple';
 	font-size: 40px;
