@@ -40,7 +40,7 @@ document.write(`
 							</li>
 						</ul>
 						<div class="dropdown-content">
-						  <a href="../genzers.github.io/about_us.html">Tedx</a>
+						  <a href="./subwebsites/events/Tedx/Tedx.html">Tedx</a>
 						</div>
 					</nav>
 				</div>
