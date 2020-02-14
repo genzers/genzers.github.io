@@ -485,7 +485,7 @@ $lato: "Lato";
 	width:280px;
 }
 
- @keyframes typing {
+@keyframes typing {
   from { width: 0 }
    to { width: 280px }
    }

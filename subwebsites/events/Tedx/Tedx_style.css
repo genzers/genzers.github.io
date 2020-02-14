@@ -1,0 +1,12 @@
+@import url("../../../css/style.css");
+
+/*TEDX event Starts*/
+.tedxEventContainer {
+	position: relative;
+	top: 100px;
+	padding: 100px;
+	font-family: Microsoft JhengHei;
+}
+/*TEDX event Ends*/
+
+
