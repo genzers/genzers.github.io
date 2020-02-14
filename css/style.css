@@ -219,6 +219,9 @@ $lato: "Lato";
 	.countdown_wrap {
 		display: none;
 	}
+  .countdown_title_div strong {
+    display: none;
+  }
 }
 /*media ended*/
 
