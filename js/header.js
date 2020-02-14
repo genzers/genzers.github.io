@@ -13,7 +13,7 @@ document.write(`
 						</ul>
 
 						<div class="dropdown-content">
-						  <a href="http://genzers.nctu.me/genzers.github.io/about_us.html">About Us</a>
+						  <a href="#">About Us</a>
 						  <a href="#">Follow Us</a>
 						  <a href="#">Testimony</a>
 						</div>
