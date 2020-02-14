@@ -497,14 +497,14 @@ $lato: "Lato";
 }
 
 .foopic img {
-	max-width: 100px;
+	max-width: 300px;
 	height: auto;
 	position: relative;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-
 }
+
 .footer-content {
 	font-family: 'simple';
 	font-size: 20px;

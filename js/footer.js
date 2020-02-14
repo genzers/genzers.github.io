@@ -112,8 +112,7 @@ document.write(`
 			</div>
 
 			<div class="foopic">
-				<a href="#"><img src="images/logo.png" alt="">
-				</a>
+				<a href="#"><img src="http://genzers.nctu.me/genzers.github.io/images/whatever.png" alt=""></a>
 				<p class="footer-content">Since 2019</p>
 				<div class="foo-social">
 					<a href="#">
@@ -124,6 +123,7 @@ document.write(`
 					</a>
 				</div>
 			</div>
+
 		</div>
 	</footer>
 `);
