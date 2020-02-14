@@ -216,13 +216,18 @@ $lato: "Lato";
 	.dropdown-content a {
 		display: none;
 	}
-	.countdown_wrap {
-		display: none;
-	}
+}
+
+@media screen and (max-width: 1200px) {
+  .countdown_wrap {
+    display: none;
+  }
   .countdown_title_div strong {
     display: none;
   }
 }
+
+
 /*media ended*/
 
 /*Animation Setting*/
