@@ -84,7 +84,7 @@ document.write(`
 				<div class="dropdown" id="res">
 					<nav class="menu">
 						<ul>
-							<li><a href="#" style="font-size: 30px;">&#9776;</a>
+							<li><a style="font-size: 30px;">&#9776;</a>
 							</li>
 						</ul>
 						<div class="dropdown-content" style="right: 0;">

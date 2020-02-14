@@ -221,6 +221,7 @@ $lato: "Lato";
 		position: relative;
 		margin-left: 80%;		
 	}
+	
 }
 
 @media screen and (max-width: 1200px) {
@@ -261,7 +262,7 @@ $lato: "Lato";
 @keyframes fadeInDownS {
   from {
     opacity: 0;
-    transform: translate3d(0, -20%, 0);
+    transform: translate3d(0, -15%, 0);
   }
 
   to {
@@ -319,7 +320,7 @@ $lato: "Lato";
 		animation: fadeIn 3s;
 }
 
-.header.banner {
+.header.banner{
 	-webkit-animation: fadeInDown 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadeInDown 2s; /* Firefox < 16 */
 	-ms-animation: fadeInDown 2s; /* Internet Explorer */
@@ -327,7 +328,7 @@ $lato: "Lato";
 		animation: fadeInDown 2s;
 }
 
-.topbannerpic {
+.dropdown-content {
 	-webkit-animation: fadeInDownS 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadeInDownS 2s; /* Firefox < 16 */
 	-ms-animation: fadeInDownS 2s; /* Internet Explorer */
