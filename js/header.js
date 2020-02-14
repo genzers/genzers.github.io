@@ -80,11 +80,24 @@ document.write(`
 						</ul>
 					</nav>
 				</div>
-
+				
+				<div class="dropdown" id="res">
+					<nav class="menu">
+						<ul>
+							<li><a href="#" style="font-size: 30px;">&#9776;</a>
+							</li>
+						</ul>
+						<div class="dropdown-content" style="right: 0;">
+							<a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">home</a>
+							<a href="#" style="font-size:20px;">about us</a>
+							<a href="" style="font-size:20px;">events</a>
+							<a href="http://genzers.nctu.me/genzers.github.io/subwebsites/stories/stories.html" style="font-size:20px;">stories</a>
+							<a href="#" style="font-size:20px;">contact us</a>
+							<a href="#" style="font-size:20px;">store</a>
+						</div>
+					</nav>
+				</div>
 			</div>
 		</div>
 	</header>
-
-
-
 `);

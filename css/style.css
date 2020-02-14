@@ -206,15 +206,20 @@ $lato: "Lato";
 	}
 
 	.dropdown {
-		display: none;
+		opacity: 0;
 	}
 
 	.dropdown-content {
-		display: none;
+		opacity: 0;
 	}
 
 	.dropdown-content a {
-		display: none;
+		opacity: 0;
+	}
+	#res {
+		opacity: 1 !important;
+		position: relative;
+		margin-left: 80%;		
 	}
 }
 
@@ -385,6 +390,11 @@ $lato: "Lato";
 
 /*Heading Ended*/
 
+#res {
+	opacity: 0;
+	text-align: center;
+}
+
 /* Dropdown Setting*/
 .dropdown {
 	width: 10%;
@@ -397,7 +407,7 @@ $lato: "Lato";
 	position: absolute;
 	background-color: #5D6D7E;
 	min-width: 160px;
-  z-index: auto;
+  	z-index: auto;
 }
 
 .dropdown-content a {
@@ -405,10 +415,10 @@ $lato: "Lato";
 	font-weight: 400;
 	color: white;
 	padding: 12px 16px;
+	text-align: right;
 	text-decoration: none;
 	display: block;
 	opacity: 100;
-  
 }
 
 .dropdown-content a:hover {
@@ -514,7 +524,7 @@ from, to { border-color: orange }
 }
 
 .foopic img {
-	max-width: 300px;
+	max-width: 250px;
 	height: auto;
 	position: relative;
 	display: block;
