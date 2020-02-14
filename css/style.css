@@ -299,6 +299,13 @@ $lato: "Lato";
 /*ID Ended*/
 
 /*Affect All Setting*/
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .topbannertitle, .menu li a {
 	-webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadeIn 3s; /* Firefox < 16 */
@@ -323,7 +330,7 @@ $lato: "Lato";
 		animation: fadeInDownS 2s;
 }
 
-.topbannercontent, .topbanneranimate {
+.topbannercontent {
 	-webkit-animation: fadeInUp 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadeInUp 2s; /* Firefox < 16 */
 	-ms-animation: fadeInUp 2s; /* Internet Explorer */
@@ -466,22 +473,26 @@ $lato: "Lato";
 	font-size: 20px;
 }
 
-.topbanneranimate h{
-	color: #4C4C4C;
-	top: -100px;
-	right: -490px;
-  	display: grid;
-	float: left;
-	position: relative;
-	font-size: 20px;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid orange; /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	letter-spacing: .15em; /* Adjust as needed */
-	animation:
-		typing 3.5s steps(30, end),
-		blink-caret .5s step-end infinite;
+.topbanneranimate {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5s steps(50, end),
+    blink-caret .5s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 /*Topbanner Ended*/
 
