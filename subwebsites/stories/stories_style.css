@@ -36,7 +36,6 @@
 }
 
 #column1 {
-	margin-right: 1%;
 	-webkit-animation: fadeInLeft 0.6s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadeInLeft 0.6s; /* Firefox < 16 */
 	-ms-animation: fadeInLeft 0.6s; /* Internet Explorer */
@@ -53,6 +52,7 @@
 }
 
 #column3 {
+	margin-left: 1%;
 	-webkit-animation: fadeInLeft 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadeInLeft 2s; /* Firefox < 16 */
 	-ms-animation: fadeInLeft 2s; /* Internet Explorer */
