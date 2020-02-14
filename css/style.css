@@ -204,7 +204,7 @@ $lato: "Lato";
 		width: 130px;
 		height: 85px;
 	}
-	
+
 	.dropdown {
 		display: none;
 	}
@@ -323,7 +323,7 @@ $lato: "Lato";
 
 .menu li a:hover, .footer-content:hover, .topbannertitle:hover {
 	-webkit-transition: color ease-in-out 400ms;
-	color: #ff817e;	
+	color: #ff817e;
 }
 /*Affect All Ended*/
 
@@ -346,7 +346,7 @@ $lato: "Lato";
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 1;	
+	z-index: 1;
 }
 
 .header.banner {
@@ -432,7 +432,7 @@ $lato: "Lato";
 	float: center;
 	margin-top:100px;
 	margin-left: 150px;
- 
+
 }
 .topbannertitle{
 	color: #4C4C4C;
@@ -467,7 +467,7 @@ $lato: "Lato";
 	white-space: nowrap; /* Keeps the content on a single line */
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 	letter-spacing: .15em; /* Adjust as needed */
-	animation: 
+	animation:
 		typing 3.5s steps(30, end),
 		blink-caret .5s step-end infinite;
 }
@@ -491,7 +491,7 @@ $lato: "Lato";
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	
+
 }
 .footer-content {
 	font-family: 'simple';

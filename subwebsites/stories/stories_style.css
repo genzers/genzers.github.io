@@ -63,7 +63,7 @@
 
 .column-heading:hover {
 	-webkit-transition: color ease-in-out 500ms;
-	color: #ff817e;	
+	color: #ff817e;
 }
 /*Affect All Ended*/
 
@@ -106,18 +106,18 @@ hr {
 	justify-content: center;
 }
 
-.column-content-title { 
+.column-content-title {
 	opacity: 0.9;
 	margin-top: 10px;
 	font-family: 'simple';
 	color: #FFFFFF;
-	font-size: 20px;	
+	font-size: 20px;
 }
 
 .column-content {
 	margin-top: 0px;
 	color: white;
-	font-size: 17px;	
+	font-size: 17px;
 }
 
 .readmore {
