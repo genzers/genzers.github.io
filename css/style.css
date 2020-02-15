@@ -201,8 +201,7 @@ $lato: "Lato";
 		height: 200px;
 	}
 	#logoimg {
-		width: 130px;
-		height: 85px;
+		display: none;
 	}
 
 	.dropdown {
@@ -219,7 +218,8 @@ $lato: "Lato";
 	#res {
 		opacity: 1 !important;
 		position: relative;
-		margin-left: 80%;		
+		margin-left: 80%;
+		margin-top: 3%;
 	}
 	
 }
@@ -389,7 +389,7 @@ $lato: "Lato";
 
 #res {
 	opacity: 0;
-	text-align: center;
+	text-align: right;
 	color: white;
 }
 
@@ -413,7 +413,6 @@ $lato: "Lato";
 	font-weight: 400;
 	color: white;
 	padding: 12px 16px;
-	text-align: right;
 	text-decoration: none;
 	display: block;
 	opacity: 100;
@@ -435,6 +434,7 @@ $lato: "Lato";
 /* Dropdown Ended */
 
 /*Topbanner Setting*/
+<<<<<<< HEAD
 .topbanner {
 	display: inline-flex;
 	align-items:center;
@@ -472,6 +472,8 @@ $lato: "Lato";
 
 
 
+=======
+>>>>>>> 3897f20cd609413ceed4b87fc66d49fff97c9678
 
 .topbanneranimate{
 	overflow:hidden; 
