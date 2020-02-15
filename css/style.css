@@ -201,8 +201,7 @@ $lato: "Lato";
 		height: 200px;
 	}
 	#logoimg {
-		width: 130px;
-		height: 85px;
+		display: none;
 	}
 
 	.dropdown {
@@ -219,7 +218,8 @@ $lato: "Lato";
 	#res {
 		opacity: 1 !important;
 		position: relative;
-		margin-left: 80%;		
+		margin-left: 80%;
+		margin-top: 3%;
 	}
 	
 }
@@ -393,7 +393,7 @@ $lato: "Lato";
 
 #res {
 	opacity: 0;
-	text-align: center;
+	text-align: right;
 	color: white;
 }
 
@@ -417,7 +417,6 @@ $lato: "Lato";
 	font-weight: 400;
 	color: white;
 	padding: 12px 16px;
-	text-align: right;
 	text-decoration: none;
 	display: block;
 	opacity: 100;
@@ -439,54 +438,6 @@ $lato: "Lato";
 /* Dropdown Ended */
 
 /*Topbanner Setting*/
-.topbanner {
-	display: inline-flex;
-	align-items:flex-end;
-	justify-content: flex-start;
-	position: relative;
-	flex-direction: row;
-	background-color: #E6E6E6;
-	opacity: 0.8;
-	top: 0;
-	left: 0;
-	height: auto;
-	border: none;
-	width: 100%;
-	padding-bottom: 100px;
-}
-.topbannerpic {
-	display: inline-grid;
-	width: 25%;
-	height: auto;
-	border-radius: 50%;
-	position: relative;
-	float: center;
-	margin-top:200px;
-	margin-left: 150px;
-
-}
-.topbannertitle{
-	color: #4C4C4C;
-	margin-left: 40px;
-	margin-top: 200px;
-  	display: inline-grid;
-	float: left;
-	position: relative;
-	font-size: 40px;
-}
-
-.topbannercontent {
-	margin-left: -350px;
-	margin-top: 280px;
-	color: #4C4C4C;
-  	display: grid;
-	float: left;
-	position: relative;
-	font-size: 20px;
-}
-
-
-
 
 .topbanneranimate{
 	overflow:hidden; 
