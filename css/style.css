@@ -221,7 +221,9 @@ $lato: "Lato";
 		margin-left: 80%;
 		margin-top: 3%;
 	}
-	
+	.icon {
+		font-size: 45px !important;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -395,6 +397,10 @@ $lato: "Lato";
 	opacity: 0;
 	text-align: right;
 	color: white;
+}
+
+.icon {
+	font-size: 14px;
 }
 
 /* Dropdown Setting*/
