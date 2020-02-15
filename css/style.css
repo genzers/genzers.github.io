@@ -329,11 +329,11 @@ $lato: "Lato";
 }
 
 .dropdown-content {
-	-webkit-animation: fadeInDownS 2s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadeInDownS 2s; /* Firefox < 16 */
-	-ms-animation: fadeInDownS 2s; /* Internet Explorer */
-	 -o-animation: fadeInDownS 2s; /* Opera < 12.1 */
-		animation: fadeInDownS 2s;
+	-webkit-animation: fadeInDownS 1s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadeInDownS 1s; /* Firefox < 16 */
+	-ms-animation: fadeInDownS 1s; /* Internet Explorer */
+	 -o-animation: fadeInDownS 1s; /* Opera < 12.1 */
+		animation: fadeInDownS 1s;
 }
 
 .topbannercontent {
@@ -345,7 +345,7 @@ $lato: "Lato";
 }
 
 
-.menu li a:hover, .footer-content:hover, .topbannertitle:hover {
+.menu li a:hover, .footer-content:hover, .topbannertitle:hover, #res:hover {
 	-webkit-transition: color ease-in-out 400ms;
 	color: #ff817e;
 }
@@ -394,6 +394,7 @@ $lato: "Lato";
 #res {
 	opacity: 0;
 	text-align: center;
+	color: white;
 }
 
 /* Dropdown Setting*/
