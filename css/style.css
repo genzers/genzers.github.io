@@ -308,11 +308,7 @@ $lato: "Lato";
 
 /*Affect All Setting*/
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  
 }
 .topbannertitle, .menu li a {
 	-webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
@@ -444,7 +440,40 @@ $lato: "Lato";
 /* Dropdown Ended */
 
 /*Topbanner Setting*/
-
+.topbanner {
+	display: inline-flex;
+	align-items:center;
+	justify-content: flex-start;
+	position: relative;
+	flex-direction: row;
+	background-color: #E6E6E6;
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	height: auto;
+	border: none;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.topbannerpiccontainer {
+  width: 25%;
+  margin-top: 100px;
+}
+.topbannerpic {
+  background-color: #E6E6E6;
+	display: inline-grid;
+  width: 100%;
+	height: auto;
+	position: relative;
+}
+.topbannercontent {
+}
+.topbannertitle{
+	font-size: 40px;
+}
+.topbannertext{
+  font-size: 16px;
+}
 .topbanneranimate{
 	overflow:hidden; 
 	letter-spacing: .15em;
