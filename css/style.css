@@ -434,7 +434,6 @@ $lato: "Lato";
 /* Dropdown Ended */
 
 /*Topbanner Setting*/
-<<<<<<< HEAD
 .topbanner {
 	display: inline-flex;
 	align-items:center;
@@ -469,12 +468,6 @@ $lato: "Lato";
 .topbannertext{
   font-size: 16px;
 }
-
-
-
-=======
->>>>>>> 3897f20cd609413ceed4b87fc66d49fff97c9678
-
 .topbanneranimate{
 	overflow:hidden; 
 	letter-spacing: .15em;
