@@ -224,6 +224,9 @@ $lato: "Lato";
 	.icon {
 		font-size: 45px !important;
 	}
+	.countdown_title {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1200px) {
