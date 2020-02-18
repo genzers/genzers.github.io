@@ -395,6 +395,9 @@ $lato: "Lato";
 	color: white;
 }
 
+.title {
+	display: none;
+}
 .icon {
 	font-size: 14px;
 }
@@ -439,8 +442,7 @@ $lato: "Lato";
 }
 /* Dropdown Ended */
 
-/*Topbanner Setting*/
-.topbanner {
+.banner {
 	display: inline-flex;
 	align-items:center;
 	justify-content: flex-start;
@@ -455,6 +457,8 @@ $lato: "Lato";
 	width: 100%;
 	padding-bottom: 100px;
 }
+
+/*Topbanner Setting*/
 .topbannerpiccontainer {
   width: 25%;
   margin-top: 100px;
@@ -481,6 +485,13 @@ $lato: "Lato";
 	white-space: nowrap; 
 	border-right: .15em solid orange;
 	width:280px;
+}
+
+/*aboutusbanner Setting*/
+.aboutusbannertitle{
+	font-size: 40px;
+	margin-left: 43%;
+	font-family: 'simple';
 }
 
 @keyframes typing {

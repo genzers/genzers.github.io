@@ -13,7 +13,7 @@ document.write(`
 						</ul>
 
 						<div class="dropdown-content">
-						  <a href="#">About Us</a>
+						  <a href="#" onclick="return false;" onmousedown="autoScrollTo('div1');">About Us</a>
 						  <a href="#">Follow Us</a>
 						  <a href="#">Testimony</a>
 						</div>
@@ -99,5 +99,6 @@ document.write(`
 				</div>
 			</div>
 		</div>
+	</header>
 	</header>
 `);
