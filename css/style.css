@@ -379,7 +379,7 @@ $lato: "Lato";
 	align-items:flex-end;
 	justify-content: flex-start;
 	background-color: #060309;
-	opacity: 0.9;
+/*	opacity: 0.9;*/
 	max-height: 100px;
 	min-height: 100px;
 	position: fixed;
@@ -445,41 +445,48 @@ $lato: "Lato";
 }
 /* Dropdown Ended */
 
+
+#aboutus {
+	background-color: #E6E6E6;
+}
 .banner {
 	display: inline-flex;
 	align-items:center;
 	justify-content: flex-start;
 	position: relative;
 	flex-direction: row;
-	background-color: #E6E6E6;
-	opacity: 0.8;
+	background-color: #070707;
 	top: 0;
 	left: 0;
 	height: auto;
 	border: none;
 	width: 100%;
-	padding-bottom: 100px;
 }
 
 /*Topbanner Setting*/
 .topbannerpiccontainer {
-  width: 25%;
-  margin-top: 100px;
+  	width: 30%;
+  	margin-top: 100px;
+/*	margin-left: 15%;*/
 }
 .topbannerpic {
-  background-color: #E6E6E6;
+  	background-color: #E6E6E6;
 	display: inline-grid;
-  width: 100%;
+  	width: 100%;
 	height: auto;
 	position: relative;
 }
 .topbannercontent {
+	opacity: 0.8;
+	margin-left: 3%;
 }
 .topbannertitle{
 	font-size: 40px;
+	color: white;
 }
 .topbannertext{
-  font-size: 16px;
+	font-size: 16px;
+	color: white;
 }
 .topbanneranimate{
 	overflow:hidden; 
