@@ -200,6 +200,9 @@ $lato: "Lato";
 	.header .banner {
 		height: 200px;
 	}
+  .banner{
+    flex-wrap: wrap;
+  }
 	#logoimg {
 		display: none;
 	}
@@ -224,6 +227,14 @@ $lato: "Lato";
 	.icon {
 		font-size: 45px !important;
 	}
+  .topbannerpiccontainer {
+    width: 100% !important;
+
+  }
+  .topbannertitle{
+    font-size:35px !important;
+    margin-top: 10% !important;
+  }
 	.countdown_title {
 		display: none;
 	}
@@ -448,6 +459,7 @@ $lato: "Lato";
 
 #aboutus {
 	background-color: #E6E6E6;
+  flex-wrap: wrap;
 }
 .banner {
 	display: inline-flex;
@@ -467,7 +479,6 @@ $lato: "Lato";
 .topbannerpiccontainer {
   	width: 30%;
   	margin-top: 100px;
-/*	margin-left: 15%;*/
 }
 .topbannerpic {
   	background-color: #E6E6E6;
@@ -499,9 +510,17 @@ $lato: "Lato";
 
 /*aboutusbanner Setting*/
 .aboutusbannertitle{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 	font-size: 40px;
-	margin-left: 43%;
 	font-family: 'simple';
+  justify-content: center;
+}
+.horizontallinecontainer{
+  margin-top: -30px;
+  width: 100%;
+  height: 10px;
 }
 
 @keyframes typing {
