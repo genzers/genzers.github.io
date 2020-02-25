@@ -490,8 +490,8 @@ $lato: "Lato";
 }
 .topbanneranimate{
 	overflow:hidden; 
-	letter-spacing: .15em;
-	animation: typing 3.5s steps(15, end), blink-caret .65s step-end infinite; 
+	letter-spacing: 0.15em;
+	animation: typing 3s steps(16, end), blink-caret .65s step-end infinite; 
 	white-space: nowrap; 
 	border-right: .15em solid orange;
 	width:280px;
