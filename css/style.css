@@ -227,6 +227,9 @@ $lato: "Lato";
 	.icon {
 		font-size: 45px !important;
 	}
+  .topbannercontent{
+    margin-left: 7% !important;
+  }
   .topbannerpiccontainer {
     width: 100% !important;
 
