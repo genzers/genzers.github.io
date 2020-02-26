@@ -6,7 +6,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  height: 310px;
+  height: 175px;
 }
 
 .countdown_title {
@@ -27,7 +27,7 @@
 }
 .countdown .bloc-time {
   float: left;
-  margin-right: 45px;
+  margin-right: 20px;
   text-align: center;
 }
 .countdown .bloc-time:last-child {
@@ -43,8 +43,8 @@
 .countdown .figure {
   position: relative;
   float: left;
-  height: 110px;
-  width: 100px;
+  height: 88px;
+  width: 80px;
   margin-right: 10px;
   background-color: #fff;
   border-radius: 8px;
@@ -60,7 +60,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  font: normal 5.94em/107px "Lato";
+  font: normal 4.752em/85.6px "Lato";
   font-weight: 700;
   color: #04075e;
 }
