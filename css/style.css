@@ -321,8 +321,10 @@ $lato: "Lato";
 /*ID Ended*/
 
 /*Affect All Setting*/
-.container {
-  
+.flexcontainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .topbannertitle, .menu li a {
 	-webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
