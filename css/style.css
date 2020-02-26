@@ -516,20 +516,21 @@ $lato: "Lato";
 	margin-left: 3%;
 }
 .topbannertitle{
-	font-size: 40px;
+  margin-top: 100px;
+	font-size: 50px;
 	color: white;
 }
 .topbannertext{
-	font-size: 16px;
+	font-size: 24px;
 	color: white;
 }
 .topbanneranimate{
 	overflow:hidden; 
-	letter-spacing: 0.15em;
-	animation: typing 3s steps(16, end), blink-caret .65s step-end infinite; 
+	letter-spacing: 0.2em;
+	animation: typing 3.5s steps(16, end), blink-caret .65s step-end infinite; 
 	white-space: nowrap; 
-	border-right: .15em solid orange;
-	width:280px;
+	border-right: 0.2em solid orange;
+	width:450px;
 }
 
 /*aboutusbanner Setting*/
