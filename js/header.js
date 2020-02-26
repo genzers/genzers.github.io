@@ -23,13 +23,9 @@ document.write(`
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
-							<li><a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;" >About us</a>
+							<li><a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;" >Team</a>
 							</li>
 						</ul>
-						<div class="dropdown-content">
-						  <a href="http://genzers.nctu.me/genzers.github.io/about_us.html">Registry</a>
-						  <a href="#">Team</a>
-						</div>
 					</nav>
 				</div>
 
