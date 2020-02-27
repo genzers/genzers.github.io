@@ -23,7 +23,8 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="http://genzers.nctu.me/genzers.github.io/js/script.js"></script>
-		<script src="http://genzers.nctu.me/genzers.github.io/js/header.js"></script>		
+		<script src="http://genzers.nctu.me/genzers.github.io/js/header.js"></script>	
+		<script src="http://genzers.nctu.me/genzers.github.io/js/slideshow.js"></script>		
 		<!--topbanner start-->
 		<div class="flexcontainer">
 			<div class="banner">
@@ -45,11 +46,37 @@
 		<div class="flexcontainer" id="div1">
 			<div class="banner" id="aboutus">
 				<div class="aboutusbannertitle">About Us</div>
-				<div class="horizontallinecontainer"><hr color="#000000"></div>
-				
+				<hr color="#000000">
+				<div class="slideshow-container">
+					  <div class="row">
+							<div class="mySlides fade">
+							  <div class="numbertext">1 / 2</div>
+							  <img src="images/flame.jpg" style="width:100%" alt="">
+							  <div class="text">Caption Text</div>
+							</div>
+
+							<div class="mySlides fade">
+							  <div class="numbertext">2 / 2</div>
+							  <img src="images/ignite.png" style="width:100%" alt="">
+							  <div class="text">Caption Two</div>
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						</div>
+					</div>
+				<br>
+
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span>
+				  <span class="dot" onclick="currentSlide(2)"></span>
+				</div>
 	        </div>
 	    </div>
-		<!--topbanner ended-->
+		
+
+
 		
 		<script src="http://genzers.nctu.me/genzers.github.io/js/footer.js"></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
