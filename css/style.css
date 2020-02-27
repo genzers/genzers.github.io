@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
 /* Border-box Setting */
 * {
 	margin: 0;
@@ -91,17 +92,8 @@
 		width: 280px !important;
 	}
 	
-	.countdown_title {
+	.footer-flex-container {
 		display: none;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	.countdown_wrap {
-	display: none;
-	}
-	.countdown_title_div strong {
-	display: none;
 	}
 }
 /*Media Setting Ended*/
@@ -378,7 +370,7 @@
 	margin-left: 3%;
 }
 .topbannertitle{
-  margin-top: 100px;
+ 	margin-top: 100px;
 	font-size: 50px;
 	color: white;
 }
@@ -404,7 +396,7 @@ hr {
 
 /*Aboutusbanner Setting*/
 .flexcontainer{
-	background-color: #C7C7C7;
+	background-color: white;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -435,7 +427,37 @@ hr {
 	font-size: 20px;
 }
 
+.roundcontainer {
+	margin-top: 3%;
+	margin-left: 3%;
+}
 
+.roundimg {
+	display: block;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.roundimgname{
+	display: block;
+	font-size: 30px;
+	font-family: 'simple';
+	align-content: center;
+	text-align: center;
+}
+
+.aboutuscontainer {
+	display: flex;
+}
+
+.aboutuscontent {
+	display: inline-flex;
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 20px;
+	font-family: "cwTeXKai", serif;
+}
 /*Topbanner Ended*/
 
 /*CountDown Setting*/
