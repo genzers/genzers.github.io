@@ -238,6 +238,22 @@ $lato: "Lato";
     font-size:35px !important;
     margin-top: 10% !important;
   }
+  .topbannertext{
+    font-size:16px !important;
+  }
+  @keyframes styping {
+  from { width: 0 }
+   to { width: 280px }
+   }
+  .topbanneranimate{
+    overflow:hidden; 
+    letter-spacing: 0.15em !important;
+    animation: styping 3.5s steps(16, end), blink-caret .65s step-end infinite !important; 
+    white-space: nowrap; 
+    border-right: 0.15em solid orange !important;
+    width: 280px !important;
+  }
+
 	.countdown_title {
 		display: none;
 	}
@@ -360,7 +376,6 @@ $lato: "Lato";
 	 -o-animation: fadeInUp 2s; /* Opera < 12.1 */
 		animation: fadeInUp 2s;
 }
-
 
 .menu li a:hover, .footer-content:hover, .topbannertitle:hover, #res:hover {
 	-webkit-transition: color ease-in-out 400ms;
@@ -507,11 +522,11 @@ $lato: "Lato";
 }
 .topbanneranimate{
 	overflow:hidden; 
-	letter-spacing: 0.2em;
+	letter-spacing: 0.237em;
 	animation: typing 3.5s steps(16, end), blink-caret .65s step-end infinite; 
 	white-space: nowrap; 
 	border-right: 0.2em solid orange;
-	width:450px;
+  width: 460px;
 }
 
 /*aboutusbanner Setting*/
@@ -531,7 +546,7 @@ $lato: "Lato";
 
 @keyframes typing {
   from { width: 0 }
-   to { width: 280px }
+   to { width: 450px }
    }
 
 @keyframes blink-caret {
