@@ -351,7 +351,9 @@ $lato: "Lato";
 /*ID Ended*/
 
 /*Affect All Setting*/
+
 .flexcontainer{
+	background-color: #C7C7C7;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -429,7 +431,6 @@ $lato: "Lato";
 	align-items:flex-end;
 	justify-content: flex-start;
 	background-color: #060309;
-/*	opacity: 0.9;*/
 	max-height: 100px;
 	min-height: 100px;
 	position: fixed;
@@ -506,7 +507,7 @@ $lato: "Lato";
 	justify-content: flex-start;
 	position: relative;
 	flex-direction: row;
-	background-color: #070707;
+	background-color: #1E1E1E;
 	top: 0;
 	left: 0;
 	height: auto;
@@ -557,20 +558,29 @@ hr {
 
 
 /*aboutusbanner Setting*/
-.aboutusbannertitle{
-	display: flex;
-	flex-wrap: wrap;
+.hero {
+	margin-top: 10%;
 	width: 100%;
-	font-size: 40px;
-	font-family: 'simple';
-	justify-content: center;
+	height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/andrew.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.horizontallinecontainer{
-	margin-top: -30px;
-	width: 100%;
-	height: 10px;
-	justify-content: center;
+.hero h1 {
+	color: white;
+    font-size: 40px;
 }
+.hero h2 {
+	color: white;
+	font-size: 20px;
+}
+
 
 @keyframes typing {
   from { width: 0 }
