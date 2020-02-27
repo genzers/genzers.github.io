@@ -222,10 +222,11 @@ $lato: "Lato";
 		opacity: 1 !important;
 		position: relative;
 		margin-left: 80%;
-		margin-top: 3%;
+		margin-top: -10%;
 	}
 	.icon {
 		font-size: 45px !important;
+
 	}
   .topbannercontent{
     margin-left: 7% !important;
