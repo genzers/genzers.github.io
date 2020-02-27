@@ -8,7 +8,7 @@ function autoScrollTo(el) {
 	if(yPos > bodyHeight){
 		clearTimeout(animator);
 	} else {
-		if(currentY < targetY-distance){
+		if(currentY < targetY-distance -10){
 			var scrollY = currentY+distance;
 			window.scroll(0, scrollY);
 		} else {
