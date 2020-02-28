@@ -86,7 +86,7 @@
 	.topbanneranimate{
 		overflow:hidden; 
 		letter-spacing: 0.15em !important;
-		animation: styping 3.5s steps(16, end), blink-caret .65s step-end infinite !important; 
+		animation: styping 3s steps(16, end), blink-caret .65s step-end infinite !important; 
 		white-space: nowrap; 
 		border-right: 0.15em solid orange !important;
 		width: 280px !important;
@@ -101,7 +101,7 @@
 /*Animation Setting*/
 @keyframes typing {
 	from { width: 0 }
-	to { width: 450px }
+	to { width: 460px }
 }
 
 @keyframes blink-caret {
@@ -380,8 +380,8 @@
 }
 .topbanneranimate{
 	overflow:hidden; 
-	letter-spacing: 0.237em;
-	animation: typing 3.5s steps(16, end), blink-caret .65s step-end infinite; 
+	letter-spacing: 0.25em;
+	animation: typing 3s steps(15, end), blink-caret .65s step-end infinite; 
 	white-space: nowrap; 
 	border-right: 0.2em solid orange;
   	width: 460px;
