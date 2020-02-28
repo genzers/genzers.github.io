@@ -93,7 +93,14 @@
 	}
 	
 	.footer-flex-container {
-		display: none;
+		display: none !important;
+	}
+
+	.countdown {
+		display: none !important;;
+	}
+	.countdown_title {
+		display: none !important;;
 	}
 }
 /*Media Setting Ended*/
