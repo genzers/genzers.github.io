@@ -21,8 +21,6 @@
 }
 /*Font Setting Ended*/
 
-
-
 /*Animation Setting*/
 @keyframes typing {
 	from { width: 0 }
@@ -196,38 +194,20 @@
 	left: 0;
 	width: 100%;
 	z-index: 1;
+  display: inline-flex;
+  align-items:flex-end;
+  justify-content: flex-start;
+  background-color: #000000;
+  max-height: 100px;
+  min-height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: -100px;
+  padding:1px;
 }
-
-.banner {
-	display: inline-flex;
-	align-items:center;
-	justify-content: flex-start;
-	position: relative;
-	flex-direction: row;
-  background-color:#202020;
-	top: 0;
-	left: 0;
-	height: auto;
-	border: none;
-	width: 100%;
-}
-
-.header.banner {
-	display: inline-flex;
-	align-items:flex-end;
-	justify-content: flex-start;
-	background-color: #060309;
-	max-height: 100px;
-	min-height: 100px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	margin-bottom: -100px;
-	padding:1px;
-}
-
-/*Heading Setting Ended*/
+/*Header Setting Ended*/
 
 /* Dropdown Setting*/
 .title {
@@ -276,9 +256,21 @@
 }
 /* Dropdown Ended */
 
-
-
 /*Topbanner Setting*/
+.topbanner {
+  display: inline-flex;
+  align-items:center;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: row;
+  background-color:#515A5A;
+  top: 0;
+  left: 0;
+  height: auto;
+  border: none;
+  width: 100%;
+}
+
 .topbannerpiccontainer {
   width: 30%;
   margin-top: 100px;
@@ -291,7 +283,7 @@
 	position: relative;
 }
 .topbannercontent {
-	opacity: 0.8;
+	opacity: 1;
 	margin-left: 3%;
 }
 .topbannertitle{
@@ -589,7 +581,7 @@ $lato: "Lato";
 /*Media Setting*/
 @media screen and (max-width: 850px) {
   #res {
-    opacity: 1 !important;
+    opacity: 1 ;
     position: relative;
     margin-left: 80%;
     margin-top: -10%;
@@ -603,7 +595,7 @@ $lato: "Lato";
     height: 200px;
   }
   
-  .banner{
+  .topbanner{
     flex-wrap: wrap;
   }
 
@@ -621,51 +613,49 @@ $lato: "Lato";
   }
 
   .icon {
-    font-size: 45px !important;
+    font-size: 45px ;
 
   }
   
   .topbannercontent{
-    margin-left: 7% !important;
+    margin-left: 7% ;
+    margin-bottom: 5%;
   }
   
   .topbannerpiccontainer {
-    width: 100% !important;
+    width: 100% ;
 
   }
   
   .topbannertitle{
-    font-size:35px !important;
-    margin-top: 10% !important;
+    font-size:35px ;
+    margin-top: 10% ;
   }
   
   .topbannertext{
-    font-size:16px !important;
+    font-size:16px ;
   }
   
   @keyframes styping {
     from { width: 0 }
     to { width: 280px }
   }
-  
+  .footer{
+    padding-top: 5%;
+  }
   .topbanneranimate{
     overflow:hidden; 
-    letter-spacing: 0.15em !important;
-    animation: styping 3s steps(16, end), blink-caret .65s step-end infinite !important; 
+    letter-spacing: 0.15em ;
+    animation: styping 3s steps(16, end), blink-caret .65s step-end infinite ; 
     white-space: nowrap; 
-    border-right: 0.15em solid orange !important;
-    width: 280px !important;
+    border-right: 0.15em solid orange ;
+    width: 280px ;
   }
-  
-  .footer-flex-container {
-    display: none !important;
-  }
-
-  .countdown {
-    display: none !important;;
+  .countdown_wrap {
+    display: none ;
   }
   .countdown_title {
-    display: none !important;;
+    display: none ;
   }
 }
 /*Media Setting Ended*/
