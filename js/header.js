@@ -1,5 +1,5 @@
 document.write(`
-	<header class="header">
+	<header class="header banner">
 			<a href="http://genzers.nctu.me/genzers.github.io/index.html" >
 				<img id="logoimg" src="http://genzers.nctu.me/genzers.github.io/images/logo.png" alt="">
 			</a>
