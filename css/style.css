@@ -21,8 +21,6 @@
 }
 /*Font Setting Ended*/
 
-
-
 /*Animation Setting*/
 @keyframes typing {
 	from { width: 0 }
@@ -176,7 +174,6 @@
 }
 /*Affect All Setting Ended*/
 
-
 /*Menu Setting*/
 .menu li a {
 	font-family:'simple';
@@ -186,7 +183,6 @@
 	text-decoration: none;
 	font-size: 14px;
 }
-
 /*Menu Setting Ended*/
 
 /*Header Setting*/
@@ -226,7 +222,6 @@
 	margin-bottom: -100px;
 	padding:1px;
 }
-
 /*Heading Setting Ended*/
 
 /* Dropdown Setting*/
@@ -276,9 +271,20 @@
 }
 /* Dropdown Ended */
 
-
-
 /*Topbanner Setting*/
+.topbanner {
+  display: inline-flex;
+  align-items:center;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: row;
+  background-color:#515A5A;
+  top: 0;
+  left: 0;
+  height: auto;
+  border: none;
+  width: 100%;
+}
 .topbannerpiccontainer {
   width: 30%;
   margin-top: 100px;
@@ -606,8 +612,6 @@ $lato: "Lato";
   .banner{
     flex-wrap: wrap;
   }
-
-
   .dropdown {
     opacity: 0;
   }
@@ -624,9 +628,12 @@ $lato: "Lato";
     font-size: 45px !important;
 
   }
-  
+  .topbanner{
+    flex-wrap: wrap;
+  }
   .topbannercontent{
     margin-left: 7% !important;
+    margin-bottom: 5%;
   }
   
   .topbannerpiccontainer {
@@ -656,12 +663,10 @@ $lato: "Lato";
     border-right: 0.15em solid orange !important;
     width: 280px !important;
   }
-  
-  .footer-flex-container {
-    display: none !important;
+  .footer{
+    padding-top: 5%;
   }
-
-  .countdown {
+  .countdown_wrap {
     display: none !important;;
   }
   .countdown_title {
