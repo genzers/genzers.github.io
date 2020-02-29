@@ -309,20 +309,22 @@
 /* Dropdown Ended */
 
 /*Topbanner Setting*/
-.topbanner {
+.topbanner{
   display: inline-flex;
   align-items:center;
   justify-content: flex-start;
   position: relative;
   flex-direction: row;
   background-color:#515A5A;
+  background-image: url(../images/topbannerbackground.jpg);
+  background-size: cover;
   top: 0;
   left: 0;
-  height: auto;
   border: none;
+  height: 700px;
   width: 100%;
 }
-.topbannerpiccontainer {
+/*.topbannerpiccontainer {
   width: 30%;
   margin-top: 100px;
 }
@@ -332,10 +334,12 @@
   width: 100%;
 	height: auto;
 	position: relative;
-}
+}*/
 .topbannercontent {
-	opacity: 0.8;
+  align-self: flex-end;
+	opacity: 1;
 	margin-left: 3%;
+  margin-bottom: 5%;
 }
 .topbannertitle{
  	margin-top: 100px;
@@ -666,6 +670,8 @@ $lato: "Lato";
 
   }
   .topbanner{
+    background-image: url(../images/topbannerbackgroundforphone.jpg);
+    height: 400px;
     flex-wrap: wrap;
   }
   .topbannercontent{
