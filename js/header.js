@@ -83,7 +83,7 @@ document.write(`
 							<li><a class="icon">&#9776;</a>
 							</li>
 						</ul>
-						<div class="dropdown-content" style="right: 0;">
+						<div class="dropdown-content-mobile" style="right: 0;">
 							<a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">home</a>
 							<a href="#" style="font-size:20px;">team</a>
 							<a href="" style="font-size:20px;">events</a>
