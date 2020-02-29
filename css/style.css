@@ -280,13 +280,13 @@
 
 /*Topbanner Setting*/
 .topbannerpiccontainer {
-  	width: 30%;
-  	margin-top: 100px;
+  width: 30%;
+  margin-top: 100px;
 }
 .topbannerpic {
-  	background-color: #E6E6E6;
+  background-color: #E6E6E6;
 	display: inline-grid;
-  	width: 100%;
+  width: 100%;
 	height: auto;
 	position: relative;
 }
@@ -309,11 +309,11 @@
 	animation: typing 3s steps(15, end), blink-caret .65s step-end infinite; 
 	white-space: nowrap; 
 	border-right: 0.2em solid orange;
-  	width: 460px;
+  width: 460px;
 }
 
 hr {
-  	display: block;
+  display: block;
 	width: 10%;
 	margin-left: 45%;
 }
@@ -383,7 +383,7 @@ hr {
 	font-size: 20px;
 	font-family: "cwTeXKai", serif;
 }
-/*Topbanner Ended*/
+/*Aboutusbanner Ended*/
 
 /*CountDown Setting*/
 .footer-flex-container{
