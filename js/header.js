@@ -32,7 +32,7 @@ document.write(`
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
-							<li><a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;" >events</a>
+							<li><a href="http://genzers.nctu.me/genzers.github.io/events/events.html" style="font-size:20px;" >events</a>
 							</li>
 						</ul>
 						<div class="dropdown-content">
