@@ -619,85 +619,93 @@ $lato: "Lato";
 /*Footer Setting Ended*/
 /*Media Setting*/
 @media screen and (max-width: 850px) {
-  #res {
-    opacity: 1 !important;
-    position: relative;
-    margin-left: 80%;
-    margin-top: -10%;
-  }
-  
-  #logoimg {
-    display: none;
-  } 
+	
+	#aboutusbanner {
+		justify-content: center;
+	}
+	
+	#res {
+		opacity: 1 !important;
+		position: relative;
+		margin-left: 80%;
+		margin-top: -10%;
+	}
 
-  .header .banner {
-    height: 200px;
-  }
-  
-  .banner{
-    flex-wrap: wrap;
-  }
-  .dropdown {
-    opacity: 0;
-  }
+	#logoimg {
+		display: none;
+	} 
 
-  .dropdown-content {
-    opacity: 0;
-  }
+	.header .banner {
+		height: 200px;
+	}
 
-  .dropdown-content a {
-    opacity: 0;
-  }
+	.banner{
+		flex-wrap: wrap;
+	}
+	.dropdown {
+		opacity: 0;
+	}
 
-  .icon {
-    font-size: 45px !important;
+	.dropdown-content {
+		opacity: 0;
+	}
 
-  }
-  .topbanner{
-    background-image: url(../images/topbannerbackgroundforphone.jpg);
-    height: 400px;
-    flex-wrap: wrap;
-  }
-  .topbannercontent{
-    margin-left: 7% !important;
-    margin-bottom: 5%;
-  }
-  
-  .topbannerpiccontainer {
-    width: 100% !important;
+	.dropdown-content a {
+		opacity: 0;
+	}
 
-  }
+	.icon {
+		font-size: 45px !important;
+
+	}
+	.topbanner{
+		background-image: url(../images/topbannerbackgroundforphone.jpg);
+		height: 400px;
+		flex-wrap: wrap;
+	}
+	.topbannercontent{
+		margin-left: 7% !important;
+		margin-bottom: 5%;
+	}
+
+	.topbannerpiccontainer {
+		width: 100% !important;
+
+	}
+
+	.topbannertitle{
+		font-size: 35px !important;
+		margin-top: 10% !important;
+	}
+
+	.topbannertext{
+		font-size:16px !important;
+	}
+	
+	
+
   
-  .topbannertitle{
-    font-size:35px !important;
-    margin-top: 10% !important;
-  }
+	@keyframes styping {
+		from { width: 0 }
+		to { width: 280px }
+	}
   
-  .topbannertext{
-    font-size:16px !important;
-  }
-  
-  @keyframes styping {
-    from { width: 0 }
-    to { width: 280px }
-  }
-  
-  .topbanneranimate{
-    overflow:hidden; 
-    letter-spacing: 0.15em !important;
-    animation: styping 3s steps(16, end), blink-caret .65s step-end infinite !important; 
-    white-space: nowrap; 
-    border-right: 0.15em solid orange !important;
-    width: 280px !important;
-  }
-  .footer{
-    padding-top: 5%;
-  }
-  .countdown_wrap {
-    display: none !important;;
-  }
-  .countdown_title {
-    display: none !important;;
-  }
+	.topbanneranimate{
+		overflow:hidden; 
+		letter-spacing: 0.15em !important;
+		animation: styping 3s steps(16, end), blink-caret .65s step-end infinite !important; 
+		white-space: nowrap; 
+		border-right: 0.15em solid orange !important;
+		width: 280px !important;
+	}
+	.footer{
+		padding-top: 5%;
+	}
+	.countdown_wrap {
+		display: none !important;;
+	}
+	.countdown_title {
+		display: none !important;;
+	}
 }
 /*Media Setting Ended*/
