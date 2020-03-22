@@ -90,7 +90,7 @@ document.write(`
 							<div class="dropdown-content-mobile" style="right: 0;">
 								<a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">home</a>
 								<a href="#" style="font-size:20px;">team</a>
-								<a href="" style="font-size:20px;">events</a>
+								<a href="http://genzers.nctu.me/genzers.github.io/subwebsites/events/events.html" style="font-size:20px;">events</a>
 								<a href="http://genzers.nctu.me/genzers.github.io/subwebsites/stories/stories.html" style="font-size:20px;">stories</a>
 								<a href="#" style="font-size:20px;">contact us</a>
 								<a href="#" style="font-size:20px;">store</a>
