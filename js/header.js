@@ -80,7 +80,7 @@ document.write(`
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
-							<li><a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">Sponsors</a>
+							<li><a href="http://genzers.nctu.me/genzers.github.io/subwebsites/sponsors/sponsors.html" style="font-size:20px;">Sponsors</a>
 							</li>
 						</ul>
 					</nav>
