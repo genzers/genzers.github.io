@@ -94,13 +94,15 @@ hr {
 	margin-top: 10px;
 	font-family: 'simple';
 	color: #FFFFFF;
-	font-size: 36px;
+	font-size: 52px;
 }
 
 .column-content {
 	margin-top: 0px;
+	text-align: : margin-right;
 	color: white;
-	font-size: 17px;
+	font-size: 24px;
+	vertical-align:bottom;
 }
 
 .tedx-container {
@@ -108,15 +110,36 @@ hr {
 	flex-grow: 1;
 }
 
+.tytext-container{
+	flex-grow: 1;
+	height: 100%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 
+.tytitle-container{
+	height: 25%;
+	width: 100%;
+	align-self: flex-start;
+}
+
+.tydescription-container{
+	height: 50%;
+	display: flex;
+	align-self: flex-end;
+}
 
 .tylogo {
 	max-width: 100%;
+    height: 100%;
 }
 
 .tylogo-container {
 	display: flex;
-	flex: 0 0 25%;
+	flex: 0 1 25%;
+
 }
 
 .readmore {
