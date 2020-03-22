@@ -231,6 +231,17 @@
 	margin-bottom: -100px;
 	padding:1px;
 }
+
+.phonetitle {
+	font-family:'simple';
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 50px;
+	margin-top: -15%;
+	margin-left: 5%;
+	display: none;
+}
 /*Heading Setting Ended*/
 
 /* Dropdown Setting*/
@@ -673,8 +684,9 @@ $lato: "Lato";
 		font-size:16px !important;
 	}
 	
-	
-
+	.phonetitle {
+		display: block;
+	}
   
 	@keyframes styping {
 		from { width: 0 }

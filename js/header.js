@@ -93,6 +93,10 @@ document.write(`
 						</div>
 					</nav>
 				</div>
+				
+				<div class="phonetitle">
+					<h>Generation Z</h>
+				</div>
 			</div>
 		</div>
 	</header>
