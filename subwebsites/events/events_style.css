@@ -99,10 +99,9 @@ hr {
 
 .column-content {
 	margin-top: 0px;
-	text-align: : margin-right;
 	color: white;
 	font-size: 24px;
-	vertical-align:bottom;
+	vertical-align:text-bottom;
 }
 
 .tedx-container {
@@ -129,6 +128,7 @@ hr {
 	height: 50%;
 	display: flex;
 	align-self: flex-end;
+	vertical-align: text-bottom;
 }
 
 .tylogo {
@@ -139,6 +139,7 @@ hr {
 .tylogo-container {
 	display: flex;
 	flex: 0 1 25%;
+	max-height: 302px;
 
 }
 
@@ -179,6 +180,29 @@ hr {
 	}
 	#column3 {
 		margin-left: 5%;
+	}
+	.tydescription-container {
+		display: none;
+	}
+	.tytext-container{
+		justify-content: center;
+		width: 100%;
+	}
+	.tedx-container {
+		flex-direction: column;
+	}
+	.tylogo-container {
+		display: flex;
+		flex: 0 1 100%;
+		max-height: 302px;
+		justify-content: center;
+	}
+	.tytitle-container{
+		height: 100%;
+	}
+	.column-content-title {
+		font-size: 34px;
+		text-align: center;
 	}
 
 }
