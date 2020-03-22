@@ -76,6 +76,16 @@ document.write(`
 						</ul>
 					</nav>
 				</div>
+
+				<div class="dropdown">
+					<nav class="menu">
+						<ul>
+							<li><a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">Sponsors</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
 				<div class="container" id="phonecontainer">
 					<div class="row">
 						<div class="phonetitle">
