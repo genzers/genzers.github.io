@@ -23,7 +23,8 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="http://genzers.nctu.me/genzers.github.io/js/script.js"></script>
-		<script src="http://genzers.nctu.me/genzers.github.io/js/header.js"></script>			
+		<script src="http://genzers.nctu.me/genzers.github.io/js/header.js"></script>
+				
 
 		<!--topbanner start-->
 		<div class="flexcontainer">
@@ -39,13 +40,37 @@
 	    </div>
 		
 		<!--about us-->
-		<div class="flexcontainer" id="div1">
+		<div class="flexcontainer">
 			<div class="banner" id="aboutus">
 				<div class="aboutusbannertitle">About Us</div>
 				<hr color="#000000">
 			</div>
+		</div>
 		<div class="flexcontainer" id="aboutusbanner">
-				<div class="roundcontainer">
+			<div class="slideshowContainer">
+			  <img class="imageSlides" src="images/slideshowtest1.png" alt="beach side city view">
+			  <img class="imageSlides" src="images/slideshowtest2.png" alt="leaf on the ground">
+			  <img class="imageSlides" src="images/slideshowtest3.png" alt="lake surrounded by mountains">
+			  <img class="imageSlides" src="images/slideshowtest4.png" alt="lake surrounded by mountains">
+			<!-- I would recommend to replace these 'span' elements with 'img' files
+			for each the left and right arrow that fits your project, and size accordingly.
+			I've shown 'span' elements because I didn't want to upload files. -->
+			  <span id ="leftArrow" class="slideshowArrow">&#8249;</span>
+			  <span id ="rightArrow" class="slideshowArrow">&#8250;</span>
+			  
+			  <div class="slideshowCircles">
+			    <span class="circle dot"></span>
+			    <span class="circle"></span>
+			    <span class="circle"></span>
+			    <span class="circle"></span>
+			  </div>
+			</div>	  
+		</div>
+
+
+
+
+				<!-- <div class="roundcontainer">
 					<a href="#"><img class="roundimg" src="images/andrew_profile.jpg" alt="Avatar"></a>
 					<h3 class="roundimgname">Organizer<br>Andrew Chraung</h3>
 				</div>
@@ -57,10 +82,12 @@
 							讓學生有發聲的機會，有這樣的機會才會促使學生獨立思考，才能持續影響生活周遭的人。
 						<i class="fas fa-quote-right" style="font-size: 35px; color: #ff817e"></i>
 					</p>
-				</div>
+				</div> -->
+		</div>
 		</div>		
 		<script src="http://genzers.nctu.me/genzers.github.io/js/footer.js"></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+		<script src="../genzers.github.io/js/slide.js"></script>	
 	</body>
 </html>
