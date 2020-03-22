@@ -123,7 +123,8 @@
 }
 
 #aboutus {
-	background-color: #E6E6E6;
+	margin-top:25px;
+	background-color: #FFFFFF;
   	flex-wrap: wrap;
 }
 
