@@ -119,11 +119,16 @@
 	opacity: 0;
 	text-align: right;
 	color: white;
+	margin-left: 50%;
 }
 
 #aboutus {
 	background-color: #E6E6E6;
   	flex-wrap: wrap;
+}
+
+#phonecontainer {
+	margin-top: -10%;
 }
 /*ID Setting Ended*/
 
@@ -237,8 +242,10 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 50px;
-	margin-top: -15%;
+/*
+	margin-top: -10%;
 	margin-left: 5%;
+*/
 	display: none;
 }
 /*Heading Setting Ended*/
@@ -628,8 +635,6 @@ $lato: "Lato";
 	#res {
 		opacity: 1 !important;
 		position: relative;
-		margin-left: 80%;
-		margin-top: -10%;
 	}
 
 	#logoimg {
