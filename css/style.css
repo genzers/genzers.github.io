@@ -377,6 +377,9 @@ hr {
 /*Topbanner Setting Ended*/
 
 /*Aboutusbanner Setting*/
+.aboutus{
+	display: flex;
+}
 .flexcontainer{
 	width: 100%;
 	display: flex;
@@ -419,7 +422,7 @@ hr {
 }
 
 .aboutuscontainer {
-	display: flex;
+	height: 1000px;
 }
 
 .aboutuscontent {
@@ -431,13 +434,9 @@ hr {
 }
 /*slide show setting*/
 .slideshowContainer {
-  display: flex;
-  /*
-  overflow: hidden;
-  flex: 0 1 100%;
-  margin: 50px 0 25px;*/
+  display:flex;
   width: 100%;
-  height:500px;
+  overflow:hidden;
 }
 
 .imageSlides {
