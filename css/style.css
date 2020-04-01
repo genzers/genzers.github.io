@@ -377,16 +377,11 @@ hr {
 /*Topbanner Setting Ended*/
 
 /*Aboutusbanner Setting*/
-.aboutus{
-	display: flex;
-}
 .flexcontainer{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
-
-
 .aboutusbannertitle{
 	display: flex;
 	flex-wrap: wrap;
@@ -395,11 +390,6 @@ hr {
 	font-family: 'simple';
 	justify-content: center;
 }
-	#aboutusbanner {
-		height: 300px;
-		/*display: flex;
-		justify-content: center;*/
-	}
 
 .roundcontainer {
 	margin-top: 3%;
@@ -421,10 +411,6 @@ hr {
 	text-align: center;
 }
 
-.aboutuscontainer {
-	height: 1000px;
-}
-
 .aboutuscontent {
 	display: inline-flex;
 	margin-top: 3%;
@@ -434,9 +420,8 @@ hr {
 }
 /*slide show setting*/
 .slideshowContainer {
-  display:flex;
   width: 100%;
-  overflow:hidden;
+  height:400px;
 }
 
 .imageSlides {
@@ -524,6 +509,7 @@ hr {
 	width: 100%;
 	background-color: #000000;
 }
+
 /*Variables*/
 $lato: "Lato";
 
@@ -714,6 +700,9 @@ $lato: "Lato";
 	
 	#aboutusbanner {
 		justify-content: center;
+	}
+	.slideshowContainer {
+  		height:200px;
 	}
 	
 	#res {
