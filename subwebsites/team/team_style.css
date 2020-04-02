@@ -100,7 +100,7 @@ hr {
 .column-content {
 	margin-top: 0px;
 	color: white;
-	font-size: 25px;
+	font-size: 200%;
 }
 
 .web-container {
@@ -110,26 +110,18 @@ hr {
 
 
 .weblogo {
-	max-width: 100%;
+	max-width: 50%;
+	margin-left: 5%;
 }
 
 .weblogo-container {
 	display: flex;
-	margin: 0% 70% 10% 0%;
-/*	flex: 0 0 30%;*/
+	max-width: 30%;
+	height: auto;
 }
 
 .webtext-container {
-	margin-top: -30%;
-	margin-left: 0%;
-}
-
-.whatever {
-	margin-left: 200%;
-	font-size: 40px;
-	font-family: 'simple';
-	color: white;
-	
+	text-align: center;
 }
 
 @media screen and (max-width: 800px) {
