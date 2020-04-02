@@ -1,0 +1,158 @@
+@import url("../../css/style.css");
+
+/*Font Setting*/
+@font-face {
+    font-family: 'simple';
+    src: url('../../font/simplifica_typeface-webfont.woff2') format('woff2'),
+         url('../../font/simplifica_typeface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Font Ended*/
+
+
+/*Animation Setting*/
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+/*Animation Ended*/
+
+/*Affect All Setting*/
+.column-heading {
+	padding: 100px;
+	-webkit-animation: fadeInLeft 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadeInLeft 2s; /* Firefox < 16 */
+	-ms-animation: fadeInLeft 2s; /* Internet Explorer */
+	-o-animation: fadeInLeft 2s; /* Opera < 12.1 */
+	animation: fadeInLeft 2s;
+}
+
+#column-only {
+	-webkit-animation: fadeInLeft 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadeInLeft 2s; /* Firefox < 16 */
+	-ms-animation: fadeInLeft 2s; /* Internet Explorer */
+	-o-animation: fadeInLeft 2s; /* Opera < 12.1 */
+	animation: fadeInLeft 2s;
+}
+
+
+.column-heading:hover {
+	-webkit-transition: color ease-in-out 500ms;
+	color: #ff817e;
+}
+/*Affect All Ended*/
+
+/*Stories Column Setting*/
+hr {
+	background-color: #979797;
+}
+.row {
+  	display:flex;
+}
+
+.column {
+	margin: 5%;
+	margin-top: 100px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	opacity: 0.9;
+	align-content: stretch;
+	width: 100%;
+	padding: 3%;
+	height: auto;
+	min-height: 150px;
+	justify-content: center;
+	transition: transform .2s; /* Animation */
+}
+
+.column:hover {
+	transform: scale(1.05);
+}
+
+.column-heading {
+	text-transform: uppercase;
+	position: relative;
+	top: 100px;
+	height: 100px;
+	font-family: 'simple';
+	font-size: 40px;
+	color: #888888;
+	text-align: center;
+	justify-content: center;
+}
+
+.column-content-title {
+	opacity: 1;
+	margin-top: 10px;
+	font-family: 'simple';
+	color: #FFFFFF;
+	font-size: 36px;
+}
+
+.column-content {
+	margin-top: 0px;
+	color: white;
+	font-size: 25px;
+}
+
+.web-container {
+	display: flex;
+	margin: 0% 5% -10%;
+}
+
+
+.weblogo {
+	max-width: 100%;
+}
+
+.weblogo-container {
+	display: flex;
+	margin: 0% 70% 10% 0%;
+/*	flex: 0 0 30%;*/
+}
+
+.webtext-container {
+	margin-top: -30%;
+	margin-left: 0%;
+}
+
+.whatever {
+	margin-left: 200%;
+	font-size: 40px;
+	font-family: 'simple';
+	color: white;
+	
+}
+
+@media screen and (max-width: 800px) {
+	.column-heading {
+		top: 200px;
+		margin-bottom: 200px;
+	}
+	.column {
+		flex: none;
+		margin-left: 5%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 90%;
+	}
+	.column:hover {
+		transform: scale(1);
+	}
+	.readmore {
+		display: none;
+	}
+	#column3 {
+		margin-left: 5%;
+	}
+
+}
+/*Stories Column Ended*/
