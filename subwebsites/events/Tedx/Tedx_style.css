@@ -9,7 +9,7 @@
 	padding: 3%;
 	font-family: Microsoft JhengHei;
 }
-.row{
+.tedxrow{
 	padding: 3%;
 }
 .TYRGlogocontainer{
@@ -24,6 +24,25 @@
 
 .whatisflowerfire{
 	font-size: 24px;
+}
+
+.transportation-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.location-text {
+	font-size: 36px!important;
+}
+.location-text-small{
+	font-size: 24px!important;
+}
+
+.including-map-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 /*TEDX event Ends*/
 

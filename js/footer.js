@@ -139,7 +139,7 @@ var Countdown = {
 
   // Initialize the countdown
   init: function() {
-    var _initial = "2020-07-19T09:00:00.0000";
+    var _initial = "2300-07-19T09:00:00.0000";
     var fromTime = new Date();
     var toTime = new Date(_initial);
 

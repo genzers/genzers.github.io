@@ -67,7 +67,7 @@ document.write(`
 						</div>
 					</nav>
 				</div>
-
+				<!--
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
@@ -76,6 +76,16 @@ document.write(`
 						</ul>
 					</nav>
 				</div>
+
+				<div class="dropdown">
+					<nav class="menu">
+						<ul>
+							<li><a href="http://genzers.nctu.me/genzers.github.io/subwebsites/sponsors/sponsors.html" style="font-size:20px;">Sponsors</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				-->
 				<div class="container" id="phonecontainer">
 					<div class="row">
 						<div class="phonetitle">
@@ -90,7 +100,7 @@ document.write(`
 							<div class="dropdown-content-mobile" style="right: 0;">
 								<a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">home</a>
 								<a href="#" style="font-size:20px;">team</a>
-								<a href="" style="font-size:20px;">events</a>
+								<a href="http://genzers.nctu.me/genzers.github.io/subwebsites/events/events.html" style="font-size:20px;">events</a>
 								<a href="http://genzers.nctu.me/genzers.github.io/subwebsites/stories/stories.html" style="font-size:20px;">stories</a>
 								<a href="#" style="font-size:20px;">contact us</a>
 								<a href="#" style="font-size:20px;">store</a>
