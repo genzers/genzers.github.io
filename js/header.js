@@ -67,7 +67,7 @@ document.write(`
 						</div>
 					</nav>
 				</div>
-
+				<!--
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
@@ -85,7 +85,7 @@ document.write(`
 						</ul>
 					</nav>
 				</div>
-
+				-->
 				<div class="container" id="phonecontainer">
 					<div class="row">
 						<div class="phonetitle">
