@@ -361,10 +361,10 @@
 	color: white;
 }
 .topbanneranimate{
-	overflow:hidden; 
+	overflow:hidden;
 	letter-spacing: 0.25em;
-	animation: typing 3s steps(15, end), blink-caret .65s step-end infinite; 
-	white-space: nowrap; 
+	animation: typing 3s steps(15, end), blink-caret .65s step-end infinite;
+	white-space: nowrap;
 	border-right: 0.2em solid orange;
   width: 460px;
 }
@@ -561,7 +561,7 @@ $lato: "Lato";
 		margin-right: 10px;
 		background-color: #fff;
 		border-radius: 8px;
-		
+
 		@include box-shadow(
 			0 3px 4px 0 rgba(0, 0, 0, 0.2),
 			inset 2px 4px 0 0 rgba(255, 255, 255, 0.08)
@@ -701,14 +701,14 @@ $lato: "Lato";
 /*Footer Setting Ended*/
 /*Media Setting*/
 @media screen and (max-width: 850px) {
-	
+
 	#aboutusbanner {
 		justify-content: center;
 	}
 	.slideshowContainer {
   		height:150px;
 	}
-	
+
 	#res {
 		opacity: 1 !important;
 		position: relative;
@@ -716,7 +716,7 @@ $lato: "Lato";
 
 	#logoimg {
 		display: none;
-	} 
+	}
 
 	.header .banner {
 		height: 200px;
@@ -764,21 +764,21 @@ $lato: "Lato";
 	.topbannertext{
 		font-size:16px !important;
 	}
-	
+
 	.phonetitle {
 		display: block;
 	}
-  
+
 	@keyframes styping {
 		from { width: 0 }
 		to { width: 280px }
 	}
-  
+
 	.topbanneranimate{
-		overflow:hidden; 
+		overflow:hidden;
 		letter-spacing: 0.15em !important;
-		animation: styping 3s steps(16, end), blink-caret .65s step-end infinite !important; 
-		white-space: nowrap; 
+		animation: styping 3s steps(16, end), blink-caret .65s step-end infinite !important;
+		white-space: nowrap;
 		border-right: 0.15em solid orange !important;
 		width: 280px !important;
 	}
