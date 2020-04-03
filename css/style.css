@@ -424,8 +424,8 @@ hr {
 }
 /*slide show setting*/
 .slideshowContainer {
-  width: 100%;
-  height:400px;
+	width: 100%;
+	height:450px;
 }
 
 .imageSlides {
