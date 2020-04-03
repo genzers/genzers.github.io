@@ -162,8 +162,8 @@ hr {
 
 @media screen and (max-width: 800px) {
 	.column-heading {
-		top: 200px;
-		margin-bottom: 200px;
+		top: 20px;
+		margin-bottom: 50px;
 	}
 	.column {
 		flex: none;
