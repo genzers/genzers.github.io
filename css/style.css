@@ -387,6 +387,7 @@ hr {
 	background: #C0C0C0;
 }
 .aboutusbannertitle{
+	padding-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
@@ -495,7 +496,32 @@ hr {
   border: solid 2px rgba(255, 255, 255, 0.5);
 }
 /*slideshow setting end*/
-/*Aboutusbanner Ended*/
+/*Aboutusbanner Setting Ended*/
+
+/*Contactusbanner Setting*/
+.contactusbannertitle{
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	font-size: 40px;
+	font-family: 'simple';
+	justify-content: center;
+}
+.pc_contactuscontent{
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
+.pc_contactustext{
+	font-size: 24px;
+	font-family: "cwTeXKai", serif;
+	color: black;
+}
+.mb_contactuscontent{
+	display: none;
+}
+/*Contactusbanner Setting Ended*/
 
 /*CountDown Setting*/
 .footer-flex-container{
@@ -753,10 +779,22 @@ $lato: "Lato";
 		display: none;
 	}
 	.topbannercontent{
-		margin-left: 7%;
-		margin-bottom: 5%;
+		align-self: center;
 	}
-
+	.pc_contactuscontent{
+		display: none;
+	}
+	.mb_contactuscontent{
+		display:flex;
+		justify-content: center;
+		width: 100%;
+	}
+	.mb_contactustext{
+		width: auto;
+		font-size: 24px;
+		font-family: "cwTeXKai", serif;
+		color: black;
+	}
 	.topbannerpiccontainer {
 		width: 100%;
 
