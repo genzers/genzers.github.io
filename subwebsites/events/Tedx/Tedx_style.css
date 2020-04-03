@@ -44,6 +44,28 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
+.display-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	.display-pc {
+		display: none;
+	}
+	.display-mobile {
+		display: block;
+	}
+	.transportation-container {
+		width: 100%;
+	}
+	.mobile-center {
+		text-align: center;
+	}
+	.button-mobile-center {
+		display: block!important;
+		margin: auto;
+	}
+}
 /*TEDX event Ends*/
 
 
