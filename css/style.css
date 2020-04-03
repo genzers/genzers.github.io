@@ -741,7 +741,7 @@ $lato: "Lato";
 	}
 
 	.icon {
-		font-size: 45px !important;
+		font-size: 45px;
 
 	}
 	.topbanner{
@@ -749,23 +749,22 @@ $lato: "Lato";
 		height: 400px;
 		flex-wrap: wrap;
 	}
+	.topbannertext{
+		display: none;
+	}
 	.topbannercontent{
-		margin-left: 7% !important;
+		margin-left: 7%;
 		margin-bottom: 5%;
 	}
 
 	.topbannerpiccontainer {
-		width: 100% !important;
+		width: 100%;
 
 	}
 
 	.topbannertitle{
-		font-size: 35px !important;
-		margin-top: 10% !important;
-	}
-
-	.topbannertext{
-		font-size:16px !important;
+		font-size: 35px;
+		margin-top: 10%;
 	}
 
 	.phonetitle {
