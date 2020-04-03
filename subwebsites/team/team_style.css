@@ -122,6 +122,7 @@ hr {
 
 .webtext-container {
 	text-align: center;
+    width: 40%;
 }
 
 @media screen and (max-width: 800px) {
