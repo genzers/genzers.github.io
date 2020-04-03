@@ -194,6 +194,7 @@ hr {
 	.tedx-container {
 		flex-direction: column;
 		width: 100%;
+		align-items: center;
 	}
 	.tylogo-container {
 		display: flex;
