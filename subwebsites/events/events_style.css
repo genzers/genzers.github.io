@@ -199,6 +199,7 @@ hr {
 		flex: 0 1 100%;
 		max-height: 302px;
 		justify-content: center;
+		width: auto;
 	}
 	.tytitle-container{
 		height: 100%;
