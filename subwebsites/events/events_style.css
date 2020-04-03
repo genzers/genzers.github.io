@@ -193,13 +193,15 @@ hr {
 	}
 	.tedx-container {
 		flex-direction: column;
+		width: 100%;
 	}
 	.tylogo-container {
 		display: flex;
 		flex: 0 1 100%;
 		max-height: 302px;
 		justify-content: center;
-		width: auto;
+		width: 90%;
+		height: auto;
 	}
 	.tytitle-container{
 		height: 100%;
