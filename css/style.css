@@ -708,6 +708,9 @@ $lato: "Lato";
 	.slideshowContainer {
   		height:150px;
 	}
+	.imageSlides{
+		width:100%;
+	}
 
 	#res {
 		opacity: 1 !important;
