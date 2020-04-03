@@ -14,7 +14,7 @@ document.write(`
 
 						<div class="dropdown-content">
 						  <a href="#" onclick="return false;" onmousedown="autoScrollTo('div1');">About Us</a>
-						  <a href="#" onclick="return false;" onmousedown="autoScrollTo('div2');>Follow Us</a>
+						  <a href="#" onclick="return false;" onmousedown="autoScrollTo('div2');">Follow Us</a>
 						  <a href="#">Testimony</a>
 						</div>
 					</nav>

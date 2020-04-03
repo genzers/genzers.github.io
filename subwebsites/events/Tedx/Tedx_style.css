@@ -20,6 +20,15 @@
     color: white;
 	font-size: 300%;
 }
+
+.learn-button{
+	background-color: white;
+	color: black;
+	font-size: 60%;
+	padding: 3%;
+	text-decoration: none !important;
+}
+
 /*TEDX event Starts*/
 .tedxEventContainer {
 	flex-wrap: wrap;
