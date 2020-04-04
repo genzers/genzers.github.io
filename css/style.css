@@ -846,9 +846,7 @@ $lato: "Lato";
 	.topbannertext{
 		display: none;
 	}
-	.topbannercontent{
-		align-self: baseline;
-	}
+	
 	.pc_contactuscontent{
 		display: none;
 	}
