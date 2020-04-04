@@ -119,7 +119,7 @@
 	opacity: 0;
 	text-align: right;
 	color: white;
-	margin-left: 30%;
+	margin-left: 25%;
 }
 
 #aboutus {
@@ -196,7 +196,7 @@
 	font-weight: 500;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 30px !important;
 }
 /*Menu Setting Ended*/
 
@@ -262,7 +262,7 @@
 
 .dropdown {
 	width: 10%;
-	margin-left:3%;
+	margin-left:10%;
 }
 
 .dropdown-content {
@@ -377,7 +377,11 @@ hr {
 /*Topbanner Setting Ended*/
 
 /*Aboutusbanner Setting*/
+.padding-bottom{
+	padding-bottom: 30px;
+}
 .flexcontainer{
+
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -804,6 +808,7 @@ $lato: "Lato";
 
 	#res {
 		opacity: 1 !important;
+		display: block!important;
 		position: relative;
 	}
 
@@ -819,15 +824,15 @@ $lato: "Lato";
 		flex-wrap: wrap;
 	}
 	.dropdown {
-		opacity: 0;
+		display: none;
 	}
 
 	.dropdown-content {
-		opacity: 0;
+		display: none;
 	}
 
 	.dropdown-content a {
-		opacity: 0;
+		display: none;
 	}
 
 	.icon {
@@ -842,9 +847,7 @@ $lato: "Lato";
 	.topbannertext{
 		display: none;
 	}
-	.topbannercontent{
-		align-self: center;
-	}
+	
 	.pc_contactuscontent{
 		display: none;
 	}
