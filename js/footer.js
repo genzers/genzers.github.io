@@ -4,7 +4,7 @@ document.write(`
 			<div class="countdown_title_div">
 				<h1 class="countdown_title">TEDxYOUTH@RonXing Garden<strong>Countdown</strong></h1>
 			</div>
-      <!--
+      
 			<div class="countdown_wrap">
 				<div class="countdown">
 					<div class="bloc-time days" data-init-value="999">
@@ -111,8 +111,8 @@ document.write(`
 					</div>
 				</div>
 			</div>
-      -->
-
+      
+      <!--
       <div class="countdown_wrap">
         <div class="countdown">
           <div class="bloc-time days" data-init-value="TBD">
@@ -219,6 +219,7 @@ document.write(`
           </div>
         </div>
       </div>
+      -->
 			<div class="foopic">
 				<a href="#"><img src="http://genzers.nctu.me/genzers.github.io/images/whatever.png" alt=""></a>
 				<p class="footer-content">Since 2019 <br> Credit from Whatever Studio</p>
@@ -253,10 +254,11 @@ var Countdown = {
     var toTime = new Date(_initial);
 
     var differenceTravel = toTime.getTime() - fromTime.getTime();
-    var seconds = Math.floor(differenceTravel / 1000);
-    var minutes = 99;
-    var hours = 99;
-    var days = 999;
+    //var seconds = Math.floor(differenceTravel / 1000);
+    var seconds = "BD";
+    var minutes = "DT";
+    var hours = "TB";
+    var days = "TBD";
     // while (seconds > 60) {
     //   seconds = seconds - 60;
     //   ++minutes;
@@ -286,11 +288,11 @@ var Countdown = {
     };
 
     // Initialize total seconds
-    this.total_seconds =
-      this.values.days * 24 * 60 * 60 +
-      this.values.hours * 60 * 60 +
-      this.values.minutes * 60 +
-      this.values.seconds;
+    // this.total_seconds =
+    //   this.values.days * 24 * 60 * 60 +
+    //   this.values.hours * 60 * 60 +
+    //   this.values.minutes * 60 +
+    //   this.values.seconds;
 
     // Animate countdown to the end
     // this.count();
