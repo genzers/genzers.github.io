@@ -843,7 +843,7 @@ $lato: "Lato";
 		display: none;
 	}
 	.topbannercontent{
-		align-self: center;
+		align-self: baseline;
 	}
 	.pc_contactuscontent{
 		display: none;
