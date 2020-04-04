@@ -823,15 +823,15 @@ $lato: "Lato";
 		flex-wrap: wrap;
 	}
 	.dropdown {
-		opacity: 0;
+		display: none;
 	}
 
 	.dropdown-content {
-		opacity: 0;
+		display: none;
 	}
 
 	.dropdown-content a {
-		opacity: 0;
+		display: none;
 	}
 
 	.icon {
