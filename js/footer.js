@@ -4,6 +4,7 @@ document.write(`
 			<div class="countdown_title_div">
 				<h1 class="countdown_title">TEDxYOUTH@RonXing Garden<strong>Countdown</strong></h1>
 			</div>
+      <!--
 			<div class="countdown_wrap">
 				<div class="countdown">
 					<div class="bloc-time days" data-init-value="999">
@@ -110,7 +111,114 @@ document.write(`
 					</div>
 				</div>
 			</div>
+      -->
 
+      <div class="countdown_wrap">
+        <div class="countdown">
+          <div class="bloc-time days" data-init-value="TBD">
+            <span class="count-title">Days</span>
+            <div class="figure days days-1">
+              <span class="top">T</span>
+              <span class="top-back">
+                <span>T</span>
+              </span>
+              <span class="bottom">T</span>
+              <span class="bottom-back">
+                <span>T</span>
+              </span>
+            </div>
+            <div class="figure days days-2">
+              <span class="top">B</span>
+              <span class="top-back">
+                <span>B</span>
+              </span>
+              <span class="bottom">B</span>
+              <span class="bottom-back">
+                <span>B</span>
+              </span>
+            </div>
+            <div class="figure days days-3">
+              <span class="top">D</span>
+              <span class="top-back">
+                <span>D</span>
+              </span>
+              <span class="bottom">D</span>
+              <span class="bottom-back">
+                <span>D</span>
+              </span>
+            </div>
+          </div>
+          <div class="bloc-time hours" data-init-value="TB">
+            <span class="count-title">Hours</span>
+            <div class="figure hours hours-1">
+              <span class="top">T</span>
+              <span class="top-back">
+                <span>T</span>
+              </span>
+              <span class="bottom">T</span>
+              <span class="bottom-back">
+                <span>T</span>
+              </span>
+            </div>
+            <div class="figure hours hours-2">
+              <span class="top">B</span>
+              <span class="top-back">
+                <span>B</span>
+              </span>
+              <span class="bottom">B</span>
+              <span class="bottom-back">
+                <span>B</span>
+              </span>
+            </div>
+          </div>
+          <div class="bloc-time min" data-init-value="DT">
+            <span class="count-title">Minutes</span>
+            <div class="figure min min-1">
+              <span class="top">D</span>
+              <span class="top-back">
+                <span>D</span>
+              </span>
+              <span class="bottom">D</span>
+              <span class="bottom-back">
+                <span>D</span>
+              </span>
+            </div>
+            <div class="figure min min-2">
+              <span class="top">T</span>
+              <span class="top-back">
+                <span>T</span>
+              </span>
+              <span class="bottom">T</span>
+              <span class="bottom-back">
+                <span>T</span>
+              </span>
+            </div>
+          </div>
+          <div class="bloc-time sec" data-init-value="BD">
+            <span class="count-title">Seconds</span>
+            <div class="figure sec sec-1">
+              <span class="top">B</span>
+              <span class="top-back">
+                <span>B</span>
+              </span>
+              <span class="bottom">B</span>
+              <span class="bottom-back">
+                <span>B</span>
+              </span>
+            </div>
+            <div class="figure sec sec-2">
+              <span class="top">D</span>
+              <span class="top-back">
+                <span>D</span>
+              </span>
+              <span class="bottom">D</span>
+              <span class="bottom-back">
+                <span>D</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
 			<div class="foopic">
 				<a href="#"><img src="http://genzers.nctu.me/genzers.github.io/images/whatever.png" alt=""></a>
 				<p class="footer-content">Since 2019 <br> Credit from Whatever Studio</p>
