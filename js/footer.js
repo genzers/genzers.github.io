@@ -138,28 +138,29 @@ var Countdown = {
   total_seconds: 0,
 
   // Initialize the countdown
+  
   init: function() {
-    var _initial = "2300-07-19T09:00:00.0000";
+    var _initial = "2019-07-19T09:00:00.0000";
     var fromTime = new Date();
     var toTime = new Date(_initial);
 
     var differenceTravel = toTime.getTime() - fromTime.getTime();
     var seconds = Math.floor(differenceTravel / 1000);
-    var minutes = 0;
-    var hours = 0;
-    var days = 0;
-    while (seconds > 60) {
-      seconds = seconds - 60;
-      ++minutes;
-    }
-    while (minutes > 60) {
-      minutes = minutes - 60;
-      ++hours;
-    }
-    while (hours > 24) {
-      hours = hours - 24;
-      ++days;
-    }
+    var minutes = 99;
+    var hours = 99;
+    var days = 999;
+    // while (seconds > 60) {
+    //   seconds = seconds - 60;
+    //   ++minutes;
+    // }
+    // while (minutes > 60) {
+    //   minutes = minutes - 60;
+    //   ++hours;
+    // }
+    // while (hours > 24) {
+    //   hours = hours - 24;
+    //   ++days;
+    // }
     // DOM
     this.$ = {
       days: this.$el.find(".bloc-time.days .figure"),
@@ -184,9 +185,9 @@ var Countdown = {
       this.values.seconds;
 
     // Animate countdown to the end
-    this.count();
+    // this.count();
   },
-
+  
   count: function() {
     var that = this,
       $day_1 = this.$.days.eq(0),
