@@ -13,8 +13,8 @@ document.write(`
 						</ul>
 
 						<div class="dropdown-content">
-						  <a href="http://genzers.nctu.me/genzers.github.io/index.html">About Us</a>
-						  <a href="http://genzers.nctu.me/genzers.github.io/index.html">Contact Us</a>
+						  <a href="http://genzers.nctu.me/genzers.github.io/index.html" onclick="return false;" onmousedown="autoScrollTo('div1');">About Us</a>
+						  <a href="http://genzers.nctu.me/genzers.github.io/index.html" onclick="return false;" onmousedown="autoScrollTo('div2');">Contact Us</a>
 						</div>
 					</nav>
 				</div>
