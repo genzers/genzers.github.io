@@ -377,7 +377,11 @@ hr {
 /*Topbanner Setting Ended*/
 
 /*Aboutusbanner Setting*/
+.padding-bottom{
+	padding-bottom: 30px;
+}
 .flexcontainer{
+
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
