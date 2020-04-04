@@ -808,6 +808,7 @@ $lato: "Lato";
 
 	#res {
 		opacity: 1 !important;
+		display: block!important;
 		position: relative;
 	}
 

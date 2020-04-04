@@ -46,11 +46,6 @@ document.write(`
 							<li><a href="http://genzers.nctu.me/genzers.github.io/subwebsites/stories/stories.html" style="font-size:20px;" >stories</a>
 							</li>
 						</ul>
-						<div class="dropdown-content">
-						  <a href="http://genzers.nctu.me/genzers.github.io/subwebsites/stories/無框/無框.html" style="font-size:15px;">無框</a>
-						  <a href="#" style="font-size:15px;">連結</a>
-						  <a href="#" style="font-size:15px;">共同</a>
-						</div>
 					</nav>
 				</div>
 				<div class="container" id="phonecontainer">
