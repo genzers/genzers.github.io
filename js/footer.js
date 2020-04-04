@@ -4,7 +4,7 @@ document.write(`
 			<div class="countdown_title_div">
 				<h1 class="countdown_title">TEDxYOUTH@RonXing Garden<strong>Countdown</strong></h1>
 			</div>
-      
+      <!--
 			<div class="countdown_wrap">
 				<div class="countdown">
 					<div class="bloc-time days" data-init-value="999">
@@ -111,8 +111,8 @@ document.write(`
 					</div>
 				</div>
 			</div>
+      -->
       
-      <!--
       <div class="countdown_wrap">
         <div class="countdown">
           <div class="bloc-time days" data-init-value="TBD">
@@ -219,8 +219,7 @@ document.write(`
           </div>
         </div>
       </div>
-      -->
-			<div class="foopic">
+      	<div class="foopic">
 				<a href="#"><img src="http://genzers.nctu.me/genzers.github.io/images/whatever.png" alt=""></a>
 				<p class="footer-content">Since 2019 <br> Credit from Whatever Studio</p>
 				<div class="foo-social">
