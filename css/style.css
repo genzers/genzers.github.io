@@ -423,7 +423,7 @@ hr {
 	font-size: 20px;
 	font-family: "cwTeXKai", serif;
 }
-/*slide show setting*/
+/*slideshow setting*/
 .slideshowContainer {
 	width: 100%;
 	height:450px;
@@ -441,12 +441,13 @@ hr {
   transition: opacity 1s ease-in-out;
   z-index: 0;
 }
-
 /* add 'visible' class via Javascript */
 .visible {
   opacity: 1;
 }
-
+.mb_visible {
+  opacity: 1!important;
+}
 .slideshowArrow {
   font-size: 7em;
   color: rgba(255, 255, 255, 0.5);
@@ -457,7 +458,9 @@ hr {
 .slideshowArrow:hover {
   opacity: 0.75;
 }
-
+.mb_slideshowArrow:hover {
+  opacity: 0.75;
+}
 #leftArrow {
   position: absolute;
   left: 4%;
@@ -492,6 +495,61 @@ hr {
 }
 
 .dot {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid 2px rgba(255, 255, 255, 0.5);
+}
+.mb_slideshowContainer{
+	display: none;
+}
+.mb_circle {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  transition: 1s ease-in-out;
+}
+#mb_leftArrow {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mb_rightArrow {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.mb_slideshowArrow {
+  font-size: 7em;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.mb_slideshowCircles {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.mb_imageSlides {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 0;
+}
+.mb_dot {
   background-color: rgba(255, 255, 255, 0.7);
   border: solid 2px rgba(255, 255, 255, 0.5);
 }
@@ -734,11 +792,15 @@ $lato: "Lato";
 		justify-content: center;
 	}
 	.slideshowContainer {
+		display: none;
   		height:180px;
 	}
-	.imageSlides{
-		width:100%;
+	.mb_slideshowContainer {
+		display:flex;
+		width: 100%;
+		height:450px;
 	}
+	
 
 	#res {
 		opacity: 1 !important;

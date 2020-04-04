@@ -39,12 +39,12 @@ function arrowClick(e) {
     if (counter == 1) {
       counter = (imageSlides.length - 1);
       imageLoop();
-      imageSlideshowInterval = setInterval(slideshow, 10000);
+      imageSlideshowInterval = setInterval(slideshow, 5000);
     } else {
       counter--;
       counter--;
       imageLoop();
-      imageSlideshowInterval = setInterval(slideshow, 10000);
+      imageSlideshowInterval = setInterval(slideshow, 5000);
     }
   } 
   else if (target == rightArrow) {
@@ -54,10 +54,10 @@ function arrowClick(e) {
     if (counter == imageSlides.length) {
       counter = 0;
       imageLoop();
-      imageSlideshowInterval = setInterval(slideshow, 10000);
+      imageSlideshowInterval = setInterval(slideshow, 5000);
     } else {
       imageLoop();
-      imageSlideshowInterval = setInterval(slideshow, 10000);
+      imageSlideshowInterval = setInterval(slideshow, 5000);
     }
   }
 }
@@ -78,5 +78,5 @@ function slideshow() {
 }
 
 // SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
-setTimeout(slideshow, 1000);
-var imageSlideshowInterval = setInterval(slideshow, 10000);
+setTimeout(slideshow, 5000);
+var imageSlideshowInterval = setInterval(slideshow, 5000);
