@@ -804,7 +804,7 @@ $lato: "Lato";
 		width: 100%;
 		height:450px;
 	}
-	
+
 
 	#res {
 		opacity: 1 !important;
@@ -847,7 +847,7 @@ $lato: "Lato";
 	.topbannertext{
 		display: none;
 	}
-	
+
 	.pc_contactuscontent{
 		display: none;
 	}
@@ -855,6 +855,10 @@ $lato: "Lato";
 		display:flex;
 		justify-content: center;
 		width: 100%;
+		background-color: #E0E0E0;
+		margin-right: 5%;
+		margin-left: 5%;
+		padding: 3% 3% 3% 3%;
 	}
 	.mb_contactustext{
 		width: auto;
