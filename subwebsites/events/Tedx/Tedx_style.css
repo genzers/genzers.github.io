@@ -41,7 +41,7 @@
 	padding: 3%;
 }
 .TYRGlogocontainer{
-	width: 80%;
+	width: 100%;
 }
 .TYRGlogo{
 	width: 100%;
@@ -125,9 +125,8 @@
 	.fireflower {
 		height: 100%;
 	}
-	.tedxrow {
-		margin-left: 35%;
+	.tedxrow{
+		text-align: center;
 	}
-
 }
 /*TEDX event Ends*/
