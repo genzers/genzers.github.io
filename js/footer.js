@@ -1,4 +1,4 @@
-document.write(
+document.write(`
 	<footer class="footer">
 		<div class="footer-flex-container">
 			<div class="countdown_title_div">
@@ -127,7 +127,7 @@ document.write(
 
 		</div>
 	</footer>
-);
+`);
 
 // Create Countdown
 var Countdown = {
