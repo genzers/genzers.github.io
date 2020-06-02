@@ -147,10 +147,10 @@ var Countdown = {
 
     var differenceTravel = toTime.getTime() - fromTime.getTime();
     var seconds = Math.floor(differenceTravel / 1000);
-//    var seconds = "BD";
-//    var minutes = "DT";
-//    var hours = "TB";
-//    var days = "TBD";
+    var seconds = 99;
+    var minutes = 99;
+    var hours = 99;
+    var days = 999;
      while (seconds > 60) {
        seconds = seconds - 60;
        ++minutes;
@@ -163,7 +163,7 @@ var Countdown = {
        hours = hours - 24;
        ++days;
      }
-     DOM
+     
     this.$ = {
       days: this.$el.find(".bloc-time.days .figure"),
       hours: this.$el.find(".bloc-time.hours .figure"),
@@ -179,14 +179,14 @@ var Countdown = {
       seconds: seconds
     };
 
-     Initialize total seconds
+     //Initialize total seconds
      this.total_seconds =
        this.values.days * 24 * 60 * 60 +
        this.values.hours * 60 * 60 +
        this.values.minutes * 60 +
        this.values.seconds;
 
-     Animate countdown to the end
+     //Animate countdown to the end
      this.count();
   },
   
