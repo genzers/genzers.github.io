@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+font-family: ‘cwTeXFangSong’, serif;
 /* Border-box Setting */
 * {
 	margin: 0;
@@ -357,7 +359,7 @@
 	color: white;
 }
 .topbannertext{
-	font-size: 24px;
+	font-size: 20px;
 	color: white;
 }
 .topbanneranimate{
@@ -425,7 +427,7 @@ hr {
 	margin-top: 3%;
 	margin-left: 5%;
 	font-size: 20px;
-	font-family: "cwTeXKai", serif;
+	font-family: "cwTeXFangSong", serif;
 }
 /*slideshow setting*/
 .slideshowContainer {
@@ -581,6 +583,7 @@ hr {
 
 /*Variables*/
 $lato: "Lato";
+
 
 /*Title*/
 .countdown_title {
@@ -838,7 +841,7 @@ $lato: "Lato";
 	.mb_contactustext{
 		width: auto;
 		font-size: 24px;
-		font-family: "cwTeXKai", serif;
+		font-family: "cwTeXFangSong", serif;
 		color: black;
 	}
 	.topbannerpiccontainer {
