@@ -141,16 +141,13 @@ var Countdown = {
   // Initialize the countdown
   
   init: function() {
-    var _initial = "2019-07-19T09:00:00.0000";
+    var _initial = "2020-07-19T09:00:00.0000";
     var fromTime = new Date();
     var toTime = new Date(_initial);
-
+    console.log(fromTime);
     var differenceTravel = toTime.getTime() - fromTime.getTime();
     var seconds = Math.floor(differenceTravel / 1000);
-    var seconds = 99;
-    var minutes = 99;
-    var hours = 99;
-    var days = 999;
+    var minutes = 0,hours = 0,days = 0;
      while (seconds > 60) {
        seconds = seconds - 60;
        ++minutes;
