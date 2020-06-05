@@ -374,18 +374,19 @@ font-family: ‘cwTeXFangSong’, serif;
 
 .topbannerbutton{
 	background-color: white;
-	width: 150px;
-	height: 90px;
+	width: 350px;
+	height: 150px;
 	align-items: center;
 	justify-content: center;
-	margin-left: 350%;
-	margin-bottom: 60%;  
+	margin-left: 120%;
+	margin-bottom: 10%;  
+	opacity: 0.8;
 	
 }
 .topbannerbuttoncontent h1{
-	padding: 25% 0% 25% 0%;
+	padding: 20% 0% 25% 0%;
 	line-height: 50%;
-	font-size: 20px;
+	font-size: 40px;
 	color: black;
 	text-align: center;
 }
