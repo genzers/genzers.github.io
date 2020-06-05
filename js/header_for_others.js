@@ -14,7 +14,6 @@ document.write(`
 
 						<div class="dropdown-content">
 						  <a href="http://genzers.nctu.me/genzers.github.io/index.html">About Us</a>
-						  <a href="http://genzers.nctu.me/genzers.github.io/index.html">Contact Us</a>
 						</div>
 					</nav>
 				</div>

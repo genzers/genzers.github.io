@@ -11,10 +11,8 @@ document.write(`
 							<li><a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">Home</a>
 							</li>
 						</ul>
-
 						<div class="dropdown-content">
 						  <a href="http://genzers.nctu.me/genzers.github.io/index.html" onclick="return false;" onmousedown="autoScrollTo('div1');">About Us</a>
-						  // <a href="http://genzers.nctu.me/genzers.github.io/index.html" onclick="return false;" onmousedown="autoScrollTo('div2');">Contact Us</a>
 						</div>
 					</nav>
 				</div>
