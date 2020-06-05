@@ -126,7 +126,6 @@ font-family: ‘cwTeXFangSong’, serif;
 
 #aboutus {
 	margin-top:25px;
-	background-color: #FFFFFF;
   	flex-wrap: wrap;
 }
 
@@ -217,7 +216,6 @@ font-family: ‘cwTeXFangSong’, serif;
 	justify-content: flex-start;
 	position: relative;
 	flex-direction: row;
-  	background-color:#202020;
 	top: 0;
 	left: 0;
 	height: auto;
@@ -378,11 +376,16 @@ font-family: ‘cwTeXFangSong’, serif;
 	height: auto;
 	align-items: center;
 	justify-content: center;
-	margin-left: 300%;
-	margin-bottom: 20%;  
 	opacity: 0.8;
 	
 }
+
+#regbutton{
+	margin-left: 35%;
+	/*margin-left: 300%;
+	margin-bottom: 20%;*/ 
+}
+
 .topbannerbuttoncontent h1{
 	padding: 20% 0% 25% 0%;
 	line-height: 50%;
@@ -391,9 +394,6 @@ font-family: ‘cwTeXFangSong’, serif;
 	text-align: center;
 }
 
-.topbannerbuttoncontent: hover{
-	transform: scale(1.05);
-}
 
 hr {
   display: block;
@@ -414,14 +414,18 @@ hr {
 }
 
 .gray{
-	background: #C0C0C0;
+	
+}
+.gradient{
+	background-image:url("../images/gradient.png");
 }
 .aboutusbannertitle{
+	color: #FFFFFF;
 	padding-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	font-size: 40px;
+	font-size: 50px;
 	font-family: 'simple';
 	justify-content: center;
 }
