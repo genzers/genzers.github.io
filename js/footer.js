@@ -111,21 +111,25 @@ document.write(`
 					</div>
 				</div>
 			</div>
-      
+        <div>
       	<div class="foopic">
 				<a href="#"><img src="http://genzers.nctu.me/genzers.github.io/images/whatever.png" alt=""></a>
 				<p class="footer-content">Since 2019 <br> Credit from Whatever Studio</p>
 				<div class="foo-social">
-					<a href="#">
+					<a href="https://www.facebook.com/genz.taiwan">
 						<i class="fab fa-facebook-f" style="color: white"></i>
 					</a>
 					<a href="https://www.instagram.com/genz_are_us/?hl=zh-tw" target="_blank">
 						<i class="fab fa-instagram" style="color: white"></i>
 					</a>
+                    <a href="mailto: acted16@gmail.com" target="_blank">
+						<i class="fab fa-envelope" style="color: white"></i>
+					</a>
 				</div>
 			</div>
 
 		</div>
+        </div>
 	</footer>
 `);
 

@@ -372,15 +372,20 @@ font-family: ‘cwTeXFangSong’, serif;
 
 .topbannerbutton{
 	background-color: white;
-	width: 350px;
-	height: 150px;
+	width: 200%;
+	height: auto;
 	align-items: center;
 	justify-content: center;
-	margin-left: 120%;
-	margin-bottom: 10%;  
 	opacity: 0.8;
 	
 }
+
+#regbutton{
+	margin-left: 35%;
+	/*margin-left: 300%;
+	margin-bottom: 20%;*/ 
+}
+
 .topbannerbuttoncontent h1{
 	padding: 20% 0% 25% 0%;
 	line-height: 50%;
@@ -388,6 +393,7 @@ font-family: ‘cwTeXFangSong’, serif;
 	color: black;
 	text-align: center;
 }
+
 
 hr {
   display: block;
