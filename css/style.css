@@ -382,7 +382,9 @@ font-family: ‘cwTeXFangSong’, serif;
 	margin-bottom: 60%;  
 	
 }
-.topbannerbutton h1{
+.topbannerbuttoncontent h1{
+	padding: 25% 0% 25% 0%;
+	line-height: 50%;
 	font-size: 20px;
 	color: black;
 	text-align: center;
