@@ -348,10 +348,11 @@ font-family: ‘cwTeXFangSong’, serif;
 }
 
 .topbannercontent {
-  align-self: flex-end;
+	display: inline-block;
+	align-self: flex-end;
 	opacity: 1;
 	margin-left: 3%;
-  margin-bottom: 5%;
+	margin-bottom: 5%;
 }
 .topbannertitle{
  	margin-top: 100px;
@@ -369,6 +370,25 @@ font-family: ‘cwTeXFangSong’, serif;
 	white-space: nowrap;
 	border-right: 0.2em solid orange;
   width: 460px;
+}
+
+.topbannerbutton{
+	background-color: white;
+	width: 350px;
+	height: 150px;
+	align-items: center;
+	justify-content: center;
+	margin-left: 120%;
+	margin-bottom: 10%;  
+	opacity: 0.8;
+	
+}
+.topbannerbuttoncontent h1{
+	padding: 20% 0% 25% 0%;
+	line-height: 50%;
+	font-size: 40px;
+	color: black;
+	text-align: center;
 }
 
 hr {
