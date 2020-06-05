@@ -880,6 +880,10 @@ $lato: "Lato";
 		margin-top: 10%;
 	}
 
+	.topbannerbutton{
+		display: none;
+	}
+
 	.phonetitle {
 		display: block;
 	}
