@@ -126,7 +126,6 @@ font-family: ‘cwTeXFangSong’, serif;
 
 #aboutus {
 	margin-top:25px;
-	background-color: #FFFFFF;
   	flex-wrap: wrap;
 }
 
@@ -217,7 +216,6 @@ font-family: ‘cwTeXFangSong’, serif;
 	justify-content: flex-start;
 	position: relative;
 	flex-direction: row;
-  	background-color:#202020;
 	top: 0;
 	left: 0;
 	height: auto;
@@ -410,14 +408,18 @@ hr {
 }
 
 .gray{
-	background: #000000;
+	
+}
+.gradient{
+	background-image:url("../images/gradient.png");
 }
 .aboutusbannertitle{
+	color: #FFFFFF;
 	padding-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	font-size: 40px;
+	font-size: 50px;
 	font-family: 'simple';
 	justify-content: center;
 }
