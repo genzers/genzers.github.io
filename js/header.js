@@ -35,7 +35,7 @@ document.write(`
 							</li>
 						</ul>
 						<div class="dropdown-content">
-						  <a href="http://genzers.nctu.me/genzers.github.io/subwebsites/events/Tedx/Tedx.html">Tedx</a>
+						  <a href="http://genzers.nctu.me/genzers.github.io/subwebsites/events/Tedx/Tedx.html">TEDx</a>
 						</div>
 					</nav>
 				</div>
