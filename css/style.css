@@ -378,11 +378,16 @@ font-family: ‘cwTeXFangSong’, serif;
 	height: auto;
 	align-items: center;
 	justify-content: center;
-	margin-left: 300%;
-	margin-bottom: 20%;  
 	opacity: 0.8;
 	
 }
+
+#regbutton{
+	margin-left: 35%;
+	/*margin-left: 300%;
+	margin-bottom: 20%;*/ 
+}
+
 .topbannerbuttoncontent h1{
 	padding: 20% 0% 25% 0%;
 	line-height: 50%;
@@ -391,9 +396,6 @@ font-family: ‘cwTeXFangSong’, serif;
 	text-align: center;
 }
 
-.topbannerbuttoncontent: hover{
-	transform: scale(1.05);
-}
 
 hr {
   display: block;
