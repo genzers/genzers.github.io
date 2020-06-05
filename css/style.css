@@ -374,12 +374,12 @@ font-family: ‘cwTeXFangSong’, serif;
 
 .topbannerbutton{
 	background-color: white;
-	width: 350px;
-	height: 150px;
+	width: 200%;
+	height: auto;
 	align-items: center;
 	justify-content: center;
-	margin-left: 120%;
-	margin-bottom: 10%;  
+	margin-left: 300%;
+	margin-bottom: 20%;  
 	opacity: 0.8;
 	
 }
@@ -389,6 +389,10 @@ font-family: ‘cwTeXFangSong’, serif;
 	font-size: 40px;
 	color: black;
 	text-align: center;
+}
+
+.topbannerbuttoncontent: hover{
+	transform: scale(1.05);
 }
 
 hr {
