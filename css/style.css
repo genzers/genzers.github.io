@@ -874,7 +874,6 @@ $lato: "Lato";
 	}
 	.topbannerpiccontainer {
 		width: 100%;
-
 	}
 
 	.topbannertitle{
@@ -882,8 +881,18 @@ $lato: "Lato";
 		margin-top: 10%;
 	}
 
+	.topbannercontent{
+		display: block;
+	}
+/*jiji*/
 	.topbannerbutton{
-		display: none;
+		display: block;
+		height: 50%;
+		width: 130%;
+	}
+
+	.topbannerbuttoncontent h1{
+		font-size: 30px;
 	}
 
 	.phonetitle {
