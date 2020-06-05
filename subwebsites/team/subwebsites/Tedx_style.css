@@ -1,0 +1,153 @@
+@import url("../../../css/style.css");
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 28vh;
+  flex-grow: 1;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+li:last-child {
+  flex-grow: 10;
+}
+
+.hero-img{
+	margin-top: 5%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../../images/fireworks.jpg");
+	height: 650px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-content{
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+	font-size: 300%;
+}
+
+.learn-button{
+	background-color: white;
+	color: black;
+	font-size: 60%;
+	padding: 3%;
+	text-decoration: none !important;
+}
+
+/*TEDX event Starts*/
+.tedxEventContainer {
+	flex-wrap: wrap;
+	width: 100%;
+	position: relative;
+	padding: 3%;
+	font-family: Microsoft JhengHei;
+}
+.tedxrow{
+	padding: 3%;
+}
+.TYRGlogocontainer{
+	width: 100%;
+}
+.TYRGlogo{
+	width: 100%;
+}
+.Tedxtitlecontainer{
+	width: 100%;
+}
+
+.whatisflowerfire{
+	font-size: 24px;
+}
+
+.fireflowercontainer {
+	margin-top: -60%;
+	display: flex;
+	width: 50%;
+	margin-left: 55%;
+}
+
+.fireflower {
+	width: 100%;
+	height: 80%;
+}
+
+.titlecontainer {
+	margin-left: 3%;
+	width: 40%;
+}
+
+.concepttitle {
+	font-family: 'simple';
+	width: 100%;
+}
+
+.transportation-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.location-text {
+	font-size: 36px!important;
+}
+.location-text-small{
+	font-size: 24px!important;
+}
+
+.including-map-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.display-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	.display-pc {
+		display: none !important;
+	}
+	.display-mobile {
+		display: block;
+	}
+	.transportation-container {
+		width: 100%;
+	}
+	.mobile-center {
+		text-align: center;
+	}
+	.button-mobile-center {
+		display: block!important;
+		margin: auto;
+	}
+	.fireflowercontainer {
+		margin-top: 0%;
+		display: flex;
+		width: 100%;
+		margin-left: 0%;
+		/* margin-left: 18%; */
+	}
+	.fireflower {
+		height: 100%;
+	}
+	.tedxrow{
+		text-align: center;
+	}
+}
+/*TEDX event Ends*/
