@@ -2,7 +2,7 @@ document.write(`
 	<footer class="footer">
 		<div class="footer-flex-container">
 			<div class="countdown_title_div">
-				<h1 class="countdown_title">TEDxYOUTH@RonXing Garden<strong>Countdown</strong></h1>
+				<h1 class="countdown_title">TEDxYOUTH@Ronxing Garden<strong>Countdown</strong></h1>
 			</div>
       
 			<div class="countdown_wrap">
