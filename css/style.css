@@ -184,7 +184,7 @@ font-family: ‘cwTeXFangSong’, serif;
 	 -o-animation: fadeInLeft 2s; /* Opera < 12.1 */
 		animation: fadeInLeft 2s;
 }
-.menu li a:hover, .footer-content:hover, .topbannertitle:hover, #res:hover {
+.menu li a:hover, .footer-content:hover, #res:hover {
 	-webkit-transition: color ease-in-out 400ms;
 	color: #ff817e;
 }
@@ -884,7 +884,6 @@ $lato: "Lato";
 	.topbannercontent{
 		display: block;
 	}
-/*jiji*/
 	.topbannerbutton{
 		display: block;
 		height: 50%;
