@@ -110,7 +110,10 @@ font-family: ‘cwTeXFangSong’, serif;
 	50% { border-color: orange }
 }
 /*Animation Ended*/
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /*ID Setting*/
 #logoimg{
 	height: 100px;
@@ -184,7 +187,7 @@ font-family: ‘cwTeXFangSong’, serif;
 	 -o-animation: fadeInLeft 2s; /* Opera < 12.1 */
 		animation: fadeInLeft 2s;
 }
-.menu li a:hover, .footer-content:hover, .topbannertitle:hover, #res:hover {
+.menu li a:hover, .footer-content:hover, #res:hover {
 	-webkit-transition: color ease-in-out 400ms;
 	color: #ff817e;
 }
@@ -329,7 +332,7 @@ font-family: ‘cwTeXFangSong’, serif;
 /* Dropdown Ended */
 
 /*Topbanner Setting*/
-.topbanner{
+.topbanner{ 
   display: inline-flex;
   align-items:center;
   justify-content: flex-start;
@@ -377,7 +380,11 @@ font-family: ‘cwTeXFangSong’, serif;
 	align-items: center;
 	justify-content: center;
 	opacity: 0.8;
-	
+	transition: transform .2s;
+}
+
+.topbannerbutton:hover{
+	transform: scale(1.05);
 }
 
 #regbutton{
@@ -822,7 +829,8 @@ $lato: "Lato";
 		display: none;
 	}
 
-	.header .banner {
+	.header {
+		display: none;
 		height: 200px;
 	}
 
@@ -884,7 +892,6 @@ $lato: "Lato";
 	.topbannercontent{
 		display: block;
 	}
-/*jiji*/
 	.topbannerbutton{
 		display: block;
 		height: 50%;
