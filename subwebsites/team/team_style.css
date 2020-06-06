@@ -54,6 +54,10 @@
 hr {
 	background-color: #979797;
 }
+
+#lastcolumn{
+	margin-bottom: 5%;
+}
 .row {
   	display:flex;
     margin-bottom: 0px;
