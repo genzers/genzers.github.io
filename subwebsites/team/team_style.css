@@ -118,7 +118,7 @@ hr {
 .weblogo {
 	max-height: 230px;
     width: auto;
-    margin-left: -130%;
+    padding-right: 100%;
 }
 
 .weblogo-container {
