@@ -389,8 +389,6 @@ html, body {
 
 #regbutton{
 	margin-left: 35%;
-	/*margin-left: 300%;
-	margin-bottom: 20%;*/ 
 }
 
 .topbannerbuttoncontent h1{
@@ -891,11 +889,16 @@ $lato: "Lato";
 
 	.topbannercontent{
 		display: block;
+		margin-left:10%;
 	}
 	.topbannerbutton{
 		display: block;
 		height: 50%;
 		width: 130%;
+	}
+
+	#regbutton{
+		margin-left: 30%;
 	}
 
 	.topbannerbuttoncontent h1{
