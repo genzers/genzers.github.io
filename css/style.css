@@ -806,6 +806,9 @@ $lato: "Lato";
 	#aboutusbanner {
 		justify-content: center;
 	}
+	.register{
+		display: none;
+	}
 	.slideshowContainer {
 		display: none;
   		height:180px;
