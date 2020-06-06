@@ -377,7 +377,11 @@ font-family: ‘cwTeXFangSong’, serif;
 	align-items: center;
 	justify-content: center;
 	opacity: 0.8;
-	
+	transition: transform .2s;
+}
+
+.topbannerbutton:hover{
+	transform: scale(1.05);
 }
 
 #regbutton{
