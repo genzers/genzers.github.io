@@ -103,8 +103,10 @@ hr {
 
 .column-content {
 	margin-top: 0px;
-	color: white;
-	font-size: 200%;
+    color: white;
+    font-size: 200%;
+    width: 500px;
+    margin-left: -10%;
 }
 
 .web-container {
@@ -114,8 +116,9 @@ hr {
 
 
 .weblogo {
-	max-width: 50%;
-	margin-left: 5%;
+	max-height: 230px;
+    width: auto;
+    margin-left: -130%;
 }
 
 .weblogo-container {
@@ -126,7 +129,6 @@ hr {
 
 .webtext-container {
 	text-align: center;
-    width: 40%;
 }
 .formobile {
     display: none;
