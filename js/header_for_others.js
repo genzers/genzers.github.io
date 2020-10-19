@@ -1,19 +1,19 @@
 document.write(`
 	<header class="header banner">
-			<a href="http://genzers.nctu.me/genzers.github.io/index.html" >
-				<img id="logoimg" src="http://genzers.nctu.me/genzers.github.io/images/logo.png" alt="">
+			<a href="http://genzers.github.io/index.html" >
+				<img id="logoimg" src="http://genzers.github.io/images/logo.png" alt="">
 			</a>
 		<div class="container">
 			<div class="row">
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
-							<li><a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">Home</a>
+							<li><a href="http://genzers.github.io/index.html" style="font-size:20px;">Home</a>
 							</li>
 						</ul>
 
 						<div class="dropdown-content">
-						  <a href="http://genzers.nctu.me/genzers.github.io/index.html">About Us</a>
+						  <a href="http://genzers.github.io/index.html">About Us</a>
 						</div>
 					</nav>
 				</div>
@@ -21,7 +21,7 @@ document.write(`
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
-							<li><a href="http://genzers.nctu.me/genzers.github.io/subwebsites/team/team.html" style="font-size:20px;" >Team</a>
+							<li><a href="http://genzers.github.io/subwebsites/team/team.html" style="font-size:20px;" >Team</a>
 							</li>
 						</ul>
 					</nav>
@@ -30,11 +30,11 @@ document.write(`
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
-							<li><a href="http://genzers.nctu.me/genzers.github.io/subwebsites/events/events.html" style="font-size:20px;" >events</a>
+							<li><a href="http://genzers.github.io/subwebsites/events/events.html" style="font-size:20px;" >events</a>
 							</li>
 						</ul>
 						<div class="dropdown-content">
-						  <a href="http://genzers.nctu.me/genzers.github.io/subwebsites/events/Tedx/Tedx.html">TEDx</a>
+						  <a href="http://genzers.github.io/subwebsites/events/Tedx/Tedx.html">TEDx</a>
 						</div>
 					</nav>
 				</div>
@@ -42,7 +42,7 @@ document.write(`
 				<div class="dropdown">
 					<nav class="menu">
 						<ul>
-							<li><a href="http://genzers.nctu.me/genzers.github.io/subwebsites/stories/stories.html" style="font-size:20px;" >stories</a>
+							<li><a href="http://genzers.github.io/subwebsites/stories/stories.html" style="font-size:20px;" >stories</a>
 							</li>
 						</ul>
 					</nav>
@@ -58,10 +58,10 @@ document.write(`
 								
 					
 							<div class="dropdown-content-mobile" style="right: 0;">
-								<a href="http://genzers.nctu.me/genzers.github.io/index.html" style="font-size:20px;">home</a>
-								<a href="http://genzers.nctu.me/genzers.github.io/subwebsites/team/team.html" style="font-size:20px;">team</a>
-								<a href="http://genzers.nctu.me/genzers.github.io/subwebsites/events/events.html" style="font-size:20px;">events</a>
-								<a href="http://genzers.nctu.me/genzers.github.io/subwebsites/stories/stories.html" style="font-size:20px;">stories</a>
+								<a href="http://genzers.github.io/index.html" style="font-size:20px;">home</a>
+								<a href="http://genzers.github.io/subwebsites/team/team.html" style="font-size:20px;">team</a>
+								<a href="http://genzers.github.io/subwebsites/events/events.html" style="font-size:20px;">events</a>
+								<a href="http://genzers.github.io/subwebsites/stories/stories.html" style="font-size:20px;">stories</a>
 							</div>
 						</nav>
 						</div>

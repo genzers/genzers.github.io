@@ -113,7 +113,7 @@ document.write(`
 			</div>
         <div>
       	<div class="foopic">
-				<a href="#"><img src="http://genzers.nctu.me/genzers.github.io/images/whatever.png" alt=""></a>
+				<a href="#"><img src="http://genzers.github.io/images/whatever.png" alt=""></a>
 				<p class="footer-content">Since 2019 <br> Credit from Whatever Studio</p>
 				<div class="foo-social">
 					<a href="https://www.facebook.com/genz.taiwan">
